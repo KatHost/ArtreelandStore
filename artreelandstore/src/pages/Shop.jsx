@@ -10,7 +10,6 @@ import FilterSidebar from "../components/Shop/FilterSidebar";
 import MobileFilterDrawer from "../components/Shop/MobileFilterDrawer";
 import ProductSkeleton from "../components/common/ProductSkeleton";
 import ViewToggle from "../components/Shop/ViewToggle";
-import assetUrl from "../utils/assets";
 
 const EMPTY_BRANDS = [];
 
@@ -203,7 +202,7 @@ export default function Shop() {
                     <div className="women-preview-grid">
                         <article className="women-preview-card">
                             <img
-                                src={assetUrl("/images/women-blue-track-set.png")}
+                                src="/images/women-blue-track-set.png"
                                 alt="ARTRƎELAND blue and black cropped track jacket with matching cargo pants"
                             />
                             <div>
@@ -214,7 +213,7 @@ export default function Shop() {
 
                         <article className="women-preview-card">
                             <img
-                                src={assetUrl("/images/women-noir-crop-set.png")}
+                                src="/images/women-noir-crop-set.png"
                                 alt="ARTRƎELAND black cropped top and streetwear look"
                             />
                             <div>

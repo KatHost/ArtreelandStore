@@ -7,7 +7,6 @@ import {
     Truck,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import assetUrl from "../../utils/assets";
 
 import products from "../../data/product";
 
@@ -43,10 +42,7 @@ export default function PhonePreview() {
                     </div>
                 </div>
 
-                <div
-                    className="phone-mini-hero"
-                    style={{ "--hero-image": `url("${assetUrl("/images/hero-model.png")}")` }}
-                >
+                <div className="phone-mini-hero">
                     <span>THE NEW COLLECTION</span>
                     <h2>
                         MORE THAN

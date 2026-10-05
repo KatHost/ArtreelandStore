@@ -1,29 +1,27 @@
 import { Link } from "react-router-dom";
-import assetUrl from "../../utils/assets";
-
 const categories = [
     {
         name: "MEN",
         subtitle: "Streetwear essentials",
-        image: assetUrl("/images/model-men.png"),
+        image: "/images/model-men.png",
         category: "Men",
     },
     {
         name: "WOMEN",
         subtitle: "Made to stand out",
-        image: assetUrl("/images/women-blue-track-set.png"),
+        image: "/images/women-blue-track-set.png",
         category: "Women",
     },
     {
         name: "FOOTWEAR",
         subtitle: "Find your next pair",
-        image: assetUrl("/images/retro-runner-detail.png"),
+        image: "/images/retro-runner-detail.png",
         category: "Shoes",
     },
     {
         name: "ACCESSORIES",
         subtitle: "The finishing touch",
-        image: assetUrl("/images/accessories-flatlay.png"),
+        image: "/images/accessories-flatlay.png",
         category: "Accessories",
     },
 ];

@@ -950,13 +950,4 @@ const products = [
     },
 ];
 
-const assetBase = import.meta.env?.BASE_URL || "/";
-
-export default products.map((product) => ({
-    ...product,
-    images: product.images.map((image) =>
-        image.startsWith("/")
-            ? `${assetBase}${image.slice(1)}`
-            : image
-    ),
-}));
+export default products;

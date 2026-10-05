@@ -7,7 +7,7 @@ import { WishlistProvider } from "./context/WishlistContext";
 
 export default function App() {
     return (
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <BrowserRouter>
             <CartProvider>
                 <WishlistProvider>
                     <AppRoutes />

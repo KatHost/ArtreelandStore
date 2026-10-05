@@ -1,12 +1,9 @@
-import { env } from 'node:process';
 import { defineConfig } from 'vite';
 import plugin from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: env.PAGES_BUILD === 'true'
-        ? '/ArtreelandStore/'
-        : '/',
+    base: '/',
     plugins: [plugin()],
     server: {
         port: 61244,

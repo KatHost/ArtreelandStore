@@ -24,7 +24,6 @@ export default function Checkout() {
 
     const [message, setMessage] = useState("");
     const [processing, setProcessing] = useState(false);
-    const paymentsEnabled = import.meta.env.VITE_PAYMENTS_ENABLED !== "false";
 
     const deliveryCost = delivery === "express" ? 149 : 99;
 
@@ -443,22 +442,13 @@ export default function Checkout() {
                                     BACK
                                 </button>
 
-                                {!paymentsEnabled && (
-                                    <p className="form-status" role="status">
-                                        Online payment is unavailable on this GitHub Pages preview.
-                                    </p>
-                                )}
                                 <button
                                     type="button"
                                     className="btn-primary-custom"
                                     onClick={handleOrderSubmit}
-                                    disabled={processing || !paymentsEnabled}
+                                    disabled={processing}
                                 >
-                                    {!paymentsEnabled
-                                        ? "PAYMENTS NOT AVAILABLE"
-                                        : processing
-                                            ? "REDIRECTING TO PAYFAST..."
-                                            : "PAY SECURELY WITH PAYFAST"}
+                                    {processing ? "REDIRECTING TO PAYFAST..." : "PAY SECURELY WITH PAYFAST"}
                                 </button>
                             </div>
 

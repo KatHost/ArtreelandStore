@@ -6,7 +6,6 @@ import {
 } from "lucide-react";
 
 import HeroButtons from "./HeroButtons";
-import assetUrl from "../../utils/assets";
 
 export default function Hero() {
     const benefits = [
@@ -35,11 +34,7 @@ export default function Hero() {
     return (
         <>
             <section className="hero">
-                <div
-                    className="hero-background"
-                    style={{ "--hero-image": `url("${assetUrl("/images/hero-model.png")}")` }}
-                    aria-hidden="true"
-                />
+                <div className="hero-background" aria-hidden="true" />
 
                 <div className="hero-content">
                     <span className="hero-label">

@@ -1,17 +1,12 @@
 import { ArrowRight, Crown } from "lucide-react";
 import { Link } from "react-router-dom";
-import assetUrl from "../../utils/assets";
 
 export default function SneakerPromo() {
     return (
         <section className="sneaker-promo-section">
             <div className="container-custom">
                 <div className="sneaker-promo">
-                    <div
-                        className="sneaker-promo-photo"
-                        style={{ "--promo-image": `url("${assetUrl("/images/sale-campaign.png")}")` }}
-                        aria-hidden="true"
-                    />
+                    <div className="sneaker-promo-photo" aria-hidden="true" />
 
                     <div className="sneaker-promo-content">
                         <p className="sneaker-promo-kicker">UP TO</p>

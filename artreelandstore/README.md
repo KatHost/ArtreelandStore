@@ -27,18 +27,6 @@ If you cannot provide GT America, use a high-quality alternative:
 
 After uploading, clear the browser cache / hard reload to ensure new fonts load.
 
-## GitHub Pages preview
-
-Every push to `master` that changes `artreelandstore/` builds and deploys the
-storefront to [GitHub Pages](https://kathost.github.io/ArtreelandStore/). The
-repository owner must enable **Settings → Pages → Build and deployment → Source:
-GitHub Actions** once before the first successful deployment.
-
-GitHub Pages serves static files only. Browsing the catalog and storefront
-pages is available there, but checkout payments are deliberately disabled:
-Pages cannot run the PHP API or MySQL database required by PayFast. The checkout
-must be deployed to PHP/MySQL hosting before accepting orders.
-
 ## HostAfrica cPanel deployment and PayFast setup
 
 The PHP checkout requires PHP 8.1+, PDO MySQL, cURL, Apache `mod_rewrite`, and a

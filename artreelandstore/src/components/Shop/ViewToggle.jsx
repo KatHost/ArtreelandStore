@@ -1,10 +1,29 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import { Grid2X2, List } from "lucide-react";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function ViewToggle({ view, setView }) {
+    return (
+        <div className="view-toggle">
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <button
+                type="button"
+                className={view === "grid" ? "selected" : ""}
+                onClick={() => setView("grid")}
+                aria-label="Grid view"
+                title="Grid view"
+            >
+                <Grid2X2 size={19} />
+            </button>
+
+            <button
+                type="button"
+                className={view === "list" ? "selected" : ""}
+                onClick={() => setView("list")}
+                aria-label="List view"
+                title="List view"
+            >
+                <List size={19} />
+            </button>
+
+        </div>
+    );
+}

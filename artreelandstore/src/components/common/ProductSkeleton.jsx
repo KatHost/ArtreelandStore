@@ -1,10 +1,13 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+export default function ProductSkeleton() {
+    return (
+        <div className="skeleton-card">
+            <div className="skeleton-image" />
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+            <div className="skeleton-line" />
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <div className="skeleton-line short" />
+
+            <div className="skeleton-line price" />
+        </div>
+    );
+}

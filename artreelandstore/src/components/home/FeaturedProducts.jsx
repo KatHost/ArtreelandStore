@@ -1,10 +1,55 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import { Link } from "react-router-dom";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+import products from "../../data/product";
+import ProductCard from "../shop/ProductCard";
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+export default function FeaturedProducts() {
+    const featuredProducts = products.filter(
+        (product) => product.featured
+    );
+
+    return (
+        <section className="section featured-section">
+
+            <div className="container-custom">
+
+                <div className="section-header">
+                    <div>
+                        <p className="eyebrow">FEATURED PRODUCTS</p>
+
+                        <h2 className="section-heading">
+                            BEST SELLERS
+                        </h2>
+                    </div>
+
+                    <Link to="/shop" className="text-link">
+                        View all →
+                    </Link>
+                </div>
+
+                <div className="featured-carousel" aria-label="Best sellers">
+                    <div className="featured-carousel-track">
+                        {[false, true].map((isDuplicate) => (
+                            <div
+                                className="featured-carousel-group"
+                                aria-hidden={isDuplicate || undefined}
+                                inert={isDuplicate || undefined}
+                                key={isDuplicate ? "duplicate" : "original"}
+                            >
+                                {featuredProducts.slice(0, 4).map((product) => (
+                                    <div
+                                        className="featured-carousel-item"
+                                        key={product.id}
+                                    >
+                                        <ProductCard product={product} />
+                                    </div>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    );
+}

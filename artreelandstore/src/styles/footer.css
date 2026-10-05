@@ -1,10 +1,57 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.footer {
+    background: var(--color-black);
+    color: white;
+    padding: 70px 0 25px;
+    margin-top: 80px;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+.footer-logo {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
 
-module.exports = [
-    {
-        rules: {}
+    .footer-logo span {
+        color: var(--color-blue);
     }
-];
+
+.footer-description {
+    color: #aaa;
+    line-height: 1.8;
+    max-width: 350px;
+    margin-top: 18px;
+}
+
+.footer-heading {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+    .footer-links a:hover {
+        color: white;
+    }
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    padding-top: 22px;
+    color: #999;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 50px;
+    }
+}

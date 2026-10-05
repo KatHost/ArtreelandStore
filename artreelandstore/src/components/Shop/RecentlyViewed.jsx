@@ -1,10 +1,29 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import ProductCard from "./ProductCard";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function RecentlyViewed({ products = [] }) {
+    if (!products.length) return null;
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+    return (
+        <section className="section">
+
+            <div className="container-custom">
+
+                <h2 className="section-heading mb-4">
+                    RECENTLY VIEWED
+                </h2>
+
+                <div className="row g-4">
+                    {products.map((product) => (
+                        <div
+                            className="col-6 col-lg-3"
+                            key={product.id}
+                        >
+                            <ProductCard product={product} />
+                        </div>
+                    ))}
+                </div>
+
+            </div>
+        </section>
+    );
+}

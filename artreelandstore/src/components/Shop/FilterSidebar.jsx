@@ -1,10 +1,19 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import Filters from "./Filters";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function FilterSidebar({
+    filters,
+    setFilters,
+}) {
+    return (
+        <aside className="filter-sidebar">
+            <div className="filter-sidebar-heading">
+                <h3>FILTERS</h3>
+            </div>
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <Filters
+                filters={filters}
+                setFilters={setFilters}
+            />
+        </aside>
+    );
+}

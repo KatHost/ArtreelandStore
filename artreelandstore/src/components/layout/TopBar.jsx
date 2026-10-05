@@ -1,10 +1,25 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import { Truck } from "lucide-react";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function TopBar() {
+    return (
+        <div className="top-bar">
+            <div className="container-custom top-bar-content">
+                <span>
+                    Free shipping on orders of R1,500 or more
+                </span>
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+                <span className="top-bar-right">
+                    Wear the culture. Live the lifestyle.
+                </span>
+
+                <span className="top-bar-locale">EN <span>·</span> ZAR</span>
+
+                <Truck
+                    className="top-bar-truck"
+                    size={15}
+                    aria-hidden="true"
+                />
+            </div>
+        </div>
+    );
+}

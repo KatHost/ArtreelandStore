@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+public/data/catalog.json
+public/data/catalog-seed.sql
+public/api/config.local.php
 
 # Editor directories and files
 .vscode/*

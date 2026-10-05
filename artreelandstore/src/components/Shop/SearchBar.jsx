@@ -1,10 +1,35 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import { Search, X } from "lucide-react";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function SearchBar({ search, setSearch }) {
+    return (
+        <div className="shop-search">
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <Search
+                size={19}
+                className="search-icon"
+            />
+
+            <input
+                type="search"
+                placeholder="Search products..."
+                value={search}
+                onChange={(event) =>
+                    setSearch(event.target.value)
+                }
+                aria-label="Search products"
+            />
+
+            {search && (
+                <button
+                    type="button"
+                    onClick={() => setSearch("")}
+                    aria-label="Clear search"
+                    className="search-clear"
+                >
+                    <X size={17} />
+                </button>
+            )}
+
+        </div>
+    );
+}

@@ -1,10 +1,17 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function HeroButtons() {
+    return (
+        <div className="hero-actions">
+            <Link to="/shop" className="btn-primary-custom">
+                SHOP NOW
+                <ArrowRight size={18} />
+            </Link>
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <Link to="/about" className="btn-outline-light">
+                OUR STORY
+            </Link>
+        </div>
+    );
+}

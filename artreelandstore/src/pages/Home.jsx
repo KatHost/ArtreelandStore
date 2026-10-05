@@ -1,10 +1,24 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+import Hero from "../components/home/Hero";
+import FeaturedProducts from "../components/home/FeaturedProducts";
+import Categories from "../components/home/Categories";
+import SneakerPromo from "../components/home/SneakerPromo";
+import NewArrivals from "../components/home/NewArrivals";
+import Newsletter from "../components/home/Newsletter";
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+export default function Home() {
+    return (
+        <>
+            <Hero />
 
-module.exports = [
-    {
-        rules: {}
-    }
-];
+            <FeaturedProducts />
+
+            <Categories />
+
+            <SneakerPromo />
+
+            <NewArrivals />
+
+            <Newsletter />
+        </>
+    );
+}

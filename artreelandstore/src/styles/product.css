@@ -1,10 +1,131 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.product-card {
+    background: white;
+    height: 100%;
+    position: relative;
+    transition: var(--transition);
+    overflow: hidden;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
-
-module.exports = [
-    {
-        rules: {}
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
     }
-];
+
+.product-image-wrapper {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    background: #eae7e1;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.06);
+}
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--color-blue);
+    color: white;
+    padding: 7px 11px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 2;
+}
+
+.product-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 3;
+}
+
+.product-icon-button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+}
+
+    .product-icon-button:hover {
+        background: var(--color-blue);
+        color: white;
+    }
+
+.product-info {
+    padding: 18px;
+}
+
+.product-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--color-grey);
+}
+
+.product-name {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 9px 0;
+}
+
+.product-price {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.product-old-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.product-rating {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+    .product-rating span {
+        color: #f0a500;
+    }
+
+.product-list-view {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px;
+}
+
+    .product-list-view .product-image-wrapper {
+        aspect-ratio: 1 / 1;
+    }
+
+@media (max-width: 600px) {
+    .product-info {
+        padding: 12px;
+    }
+
+    .product-name {
+        font-size: 13px;
+    }
+
+    .product-list-view {
+        grid-template-columns: 120px 1fr;
+    }
+}

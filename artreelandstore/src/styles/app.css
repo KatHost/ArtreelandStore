@@ -1,10 +1,112 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.container-custom {
+    width: min(92%, var(--container-width));
+    margin: 0 auto;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+.section {
+    padding: 90px 0;
+}
 
-module.exports = [
-    {
-        rules: {}
+.section-heading {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.section-subtitle {
+    color: var(--color-grey);
+    margin-top: 12px;
+    max-width: 550px;
+}
+
+.eyebrow {
+    color: var(--color-blue);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.btn-primary-custom {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-blue);
+    color: white;
+    border: 1px solid var(--color-blue);
+    padding: 14px 25px;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+    .btn-primary-custom:hover {
+        background: var(--color-blue-hover);
+        border-color: var(--color-blue-hover);
+        transform: translateY(-2px);
+        color: white;
     }
-];
+
+.btn-dark-custom {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black);
+    color: white;
+    padding: 14px 25px;
+    border: 1px solid var(--color-black);
+    transition: var(--transition);
+}
+
+    .btn-dark-custom:hover {
+        background: var(--color-blue);
+        border-color: var(--color-blue);
+        color: white;
+    }
+
+.btn-outline-custom {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 24px;
+    border: 1px solid var(--color-black);
+    color: var(--color-black);
+    background: transparent;
+    transition: var(--transition);
+}
+
+    .btn-outline-custom:hover {
+        background: var(--color-black);
+        color: white;
+    }
+
+.page-title {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.form-control-custom {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    background: white;
+    outline: none;
+    border-radius: var(--radius-small);
+}
+
+    .form-control-custom:focus {
+        border-color: var(--color-blue);
+    }
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .container-custom {
+        width: 90%;
+    }
+}

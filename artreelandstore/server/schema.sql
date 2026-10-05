@@ -1,0 +1,16 @@
+CREATE TABLE artreeland_orders (
+    order_id CHAR(32) NOT NULL PRIMARY KEY,
+    payment_status VARCHAR(16) NOT NULL DEFAULT 'pending',
+    amount DECIMAL(10, 2) NOT NULL,
+    order_data MEDIUMTEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+        ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+CREATE TABLE artreeland_inventory (
+    product_id INT NOT NULL PRIMARY KEY,
+    product_name VARCHAR(160) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    stock INT UNSIGNED NOT NULL
+) ENGINE=InnoDB;

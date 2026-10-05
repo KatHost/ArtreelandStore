@@ -1,10 +1,39 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 40px 0;
+    padding: 0;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
-
-module.exports = [
-    {
-        rules: {}
+    .pagination .page-item {
+        list-style: none;
     }
-];
+
+    .pagination .page-link {
+        border: 1px solid #ddd;
+        padding: 10px 15px;
+        color: var(--color-black);
+        background: white;
+        display: block;
+        transition: var(--transition);
+    }
+
+        .pagination .page-link:hover {
+            background: var(--color-blue);
+            color: white;
+            border-color: var(--color-blue);
+        }
+
+    .pagination .active .page-link {
+        background: var(--color-blue);
+        border-color: var(--color-blue);
+        color: white;
+    }
+
+    .pagination .disabled .page-link {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }

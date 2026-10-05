@@ -1,10 +1,133 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.hero {
+    min-height: clamp(340px, 35vw, 470px);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: var(--color-black);
+    color: white;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+.hero-background {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(90deg, rgba(5, 10, 16, 0.94) 0%, rgba(5, 10, 16, 0.76) 38%, rgba(5, 10, 16, 0.12) 100%),
+        var(--hero-image);
+    background-size: cover;
+    background-position: center 8%;
+}
 
-module.exports = [
-    {
-        rules: {}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: min(92%, var(--container-width));
+    margin: 0 auto;
+    padding: 30px 0 20px;
+}
+
+.hero-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #73a0ff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 22px;
+}
+
+.hero-label::before {
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: var(--color-blue);
+}
+
+.hero-title {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(2.6rem, 4.4vw, 4rem);
+    font-weight: 700;
+    line-height: 0.94;
+    letter-spacing: -0.065em;
+    max-width: 780px;
+}
+
+.hero-title span {
+    color: var(--color-blue);
+}
+
+.hero-description {
+    max-width: 440px;
+    margin: 14px 0;
+    line-height: 1.65;
+    color: #e0e2e5;
+    font-size: 15px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.hero-bottom-note {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 25px;
+    color: #c3c8d0;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.hero-slide-indicator {
+    display: flex;
+    gap: 14px;
+}
+
+.hero-slide-indicator span:first-child {
+    color: #fff;
+    border-bottom: 2px solid var(--color-blue);
+    padding-bottom: 5px;
+}
+
+.hero-slide-indicator span:not(:first-child) {
+    color: #9298a1;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 450px;
+        padding: 0;
     }
-];
+
+    .hero-background {
+        background-image:
+            linear-gradient(90deg, rgba(5, 10, 16, 0.9), rgba(5, 10, 16, 0.42)),
+            var(--hero-image);
+        background-position: 58% 8%;
+    }
+
+    .hero-content {
+        padding: 48px 0 26px;
+    }
+
+    .hero-label {
+        margin-bottom: 16px;
+    }
+
+    .hero-title {
+        font-size: clamp(2.5rem, 11vw, 4rem);
+        letter-spacing: -0.055em;
+    }
+
+    .hero-description {
+        max-width: 360px;
+        margin: 14px 0;
+    }
+
+    .hero-bottom-note {
+        margin-top: 40px;
+    }
+}

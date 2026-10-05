@@ -1,10 +1,25 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+export default function Button({
+    children,
+    onClick,
+    type = "button",
+    variant = "primary",
+    disabled = false,
+    className = "",
+}) {
+    const variants = {
+        primary: "btn-primary-custom",
+        dark: "btn-dark-custom",
+        outline: "btn-outline-custom",
+    };
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
-
-module.exports = [
-    {
-        rules: {}
-    }
-];
+    return (
+        <button
+            type={type}
+            onClick={onClick}
+            disabled={disabled}
+            className={`${variants[variant] || variants.primary} ${className}`}
+        >
+            {children}
+        </button>
+    );
+}

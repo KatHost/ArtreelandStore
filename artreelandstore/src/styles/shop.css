@@ -1,10 +1,136 @@
-// This file allows you to configure ESLint according to your project's needs, so that you
-// can control the strictness of the linter, the plugins to use, and more.
+.shop-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
 
-// For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+.shop-search {
+    position: relative;
+    flex: 1;
+    max-width: 450px;
+}
 
-module.exports = [
-    {
-        rules: {}
+    .shop-search input {
+        width: 100%;
+        padding: 14px 45px 14px 16px;
+        border: 1px solid #ddd;
+        background: white;
+        outline: none;
     }
-];
+
+        .shop-search input:focus {
+            border-color: var(--color-blue);
+        }
+
+.shop-filter-panel {
+    background: white;
+    padding: 22px;
+    border: 1px solid #eee;
+}
+
+.shop-filter-title {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.shop-filter-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.shop-sort {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    background: white;
+    min-width: 180px;
+}
+
+.shop-empty {
+    padding: 70px 20px;
+    text-align: center;
+    background: white;
+}
+
+.women-preview {
+    padding: 28px 0 72px;
+}
+
+.women-preview-heading {
+    max-width: 680px;
+    margin: 0 auto 34px;
+    text-align: center;
+}
+
+.women-preview-heading .section-heading {
+    margin-bottom: 12px;
+}
+
+.women-preview-heading > p:last-child {
+    color: var(--color-grey);
+}
+
+.women-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.women-preview-card {
+    overflow: hidden;
+    background: var(--color-black);
+    color: white;
+}
+
+.women-preview-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.women-preview-card > div {
+    padding: 22px 24px 26px;
+}
+
+.women-preview-card .eyebrow {
+    margin-bottom: 8px;
+}
+
+.women-preview-card h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.8rem);
+}
+
+@media (max-width: 768px) {
+    .shop-toolbar {
+        align-items: stretch;
+    }
+
+    .shop-search {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .shop-sort {
+        flex: 1;
+    }
+
+    .women-preview {
+        padding: 12px 0 48px;
+    }
+
+    .women-preview-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .women-preview-card > div {
+        padding: 18px 20px 22px;
+    }
+}

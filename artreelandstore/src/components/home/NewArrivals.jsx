@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import products from "../../data/product";
-import ProductCard from "../shop/ProductCard";
+import ProductCard from "../Shop/ProductCard";
 
 export default function NewArrivals() {
     const newProducts = products

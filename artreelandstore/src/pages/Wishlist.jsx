@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { useWishlist } from "../context/WishlistContext";
-import ProductCard from "../components/shop/ProductCard";
+import ProductCard from "../components/Shop/ProductCard";
 
 export default function Wishlist() {
     const { wishlistItems } = useWishlist();

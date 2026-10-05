@@ -4,12 +4,12 @@ import { useSearchParams } from "react-router-dom";
 
 import products from "../data/product";
 
-import ProductCard from "../components/shop/ProductCard";
-import SearchBar from "../components/shop/SearchBar";
-import FilterSidebar from "../components/shop/FilterSidebar";
-import MobileFilterDrawer from "../components/shop/MobileFilterDrawer";
+import ProductCard from "../components/Shop/ProductCard";
+import SearchBar from "../components/Shop/SearchBar";
+import FilterSidebar from "../components/Shop/FilterSidebar";
+import MobileFilterDrawer from "../components/Shop/MobileFilterDrawer";
 import ProductSkeleton from "../components/common/ProductSkeleton";
-import ViewToggle from "../components/shop/ViewToggle";
+import ViewToggle from "../components/Shop/ViewToggle";
 import assetUrl from "../utils/assets";
 
 const EMPTY_BRANDS = [];

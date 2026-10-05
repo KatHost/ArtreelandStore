@@ -2,10 +2,10 @@ import { Link, useParams } from "react-router-dom";
 
 import products from "../data/product";
 
-import ProductGallery from "../components/shop/ProductGallery";
-import ProductInfo from "../components/shop/ProductInfo";
-import ProductTabs from "../components/shop/ProductTabs";
-import RelatedProducts from "../components/shop/RelatedProducts";
+import ProductGallery from "../components/Shop/ProductGallery";
+import ProductInfo from "../components/Shop/ProductInfo";
+import ProductTabs from "../components/Shop/ProductTabs";
+import RelatedProducts from "../components/Shop/RelatedProducts";
 
 export default function Product() {
     const { id } = useParams();

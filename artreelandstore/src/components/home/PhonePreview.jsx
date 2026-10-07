@@ -9,6 +9,7 @@ import {
 import { Link } from "react-router-dom";
 
 import products from "../../data/product";
+import { publicAsset } from "../../utils/publicAsset";
 
 export default function PhonePreview() {
     const featuredProducts = products.filter(
@@ -86,7 +87,7 @@ export default function PhonePreview() {
                                 to={`/product/${product.id}`}
                                 key={product.id}
                             >
-                                <img src={product.images[0]} alt={product.name} />
+                                <img src={publicAsset(product.images[0])} alt={product.name} />
                                 <strong>{product.name}</strong>
                                 <span>R{Number(product.price).toLocaleString("en-ZA")}</span>
                             </Link>

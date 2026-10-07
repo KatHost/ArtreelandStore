@@ -6,8 +6,10 @@ import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
 
 export default function App() {
+    const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
             <CartProvider>
                 <WishlistProvider>
                     <AppRoutes />

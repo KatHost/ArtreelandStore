@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { publicAsset } from "../../utils/publicAsset";
 const categories = [
     {
         name: "MEN",
@@ -59,7 +60,7 @@ export default function Categories() {
                             key={category.name}
                         >
                             <img
-                                src={category.image}
+                                src={publicAsset(category.image)}
                                 alt={category.name}
                                 loading="lazy"
                             />

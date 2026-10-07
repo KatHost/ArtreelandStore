@@ -1,0 +1,56 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and publish storefront
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: artreelandstore/package-lock.json
+
+      - name: Install dependencies
+        working-directory: artreelandstore
+        run: npm ci
+
+      - name: Build static storefront
+        working-directory: artreelandstore
+        env:
+          VITE_PAYMENTS_ENABLED: 'false'
+        run: npm run build
+
+      - name: Prepare GitHub Pages files
+        working-directory: artreelandstore
+        run: |
+          mkdir pages-site
+          cp -R dist/. pages-site/
+          rm -rf pages-site/api
+          rm -f pages-site/.htaccess pages-site/data/catalog-seed.sql
+          cp pages-site/index.html pages-site/404.html
+          touch pages-site/.nojekyll
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./artreelandstore/pages-site
+          publish_branch: gh-pages
+          force_orphan: true

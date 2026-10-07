@@ -3,6 +3,7 @@ import { SlidersHorizontal } from "lucide-react";
 import { useSearchParams } from "react-router-dom";
 
 import products from "../data/product";
+import { publicAsset } from "../utils/publicAsset";
 
 import ProductCard from "../components/Shop/ProductCard";
 import SearchBar from "../components/Shop/SearchBar";
@@ -202,7 +203,7 @@ export default function Shop() {
                     <div className="women-preview-grid">
                         <article className="women-preview-card">
                             <img
-                                src="/images/women-blue-track-set.png"
+                                src={publicAsset("/images/women-blue-track-set.png")}
                                 alt="ARTRƎELAND blue and black cropped track jacket with matching cargo pants"
                             />
                             <div>
@@ -213,7 +214,7 @@ export default function Shop() {
 
                         <article className="women-preview-card">
                             <img
-                                src="/images/women-noir-crop-set.png"
+                                src={publicAsset("/images/women-noir-crop-set.png")}
                                 alt="ARTRƎELAND black cropped top and streetwear look"
                             />
                             <div>

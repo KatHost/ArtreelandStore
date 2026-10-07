@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { publicAsset } from "../utils/publicAsset";
 
 export default function About() {
     return (
@@ -72,7 +73,7 @@ export default function About() {
                     <div className="about-visuals-grid">
                         <figure>
                             <img
-                                src="/images/brand-packaging-box.png"
+                                src={publicAsset("/images/brand-packaging-box.png")}
                                 alt="Black ARTRƎELAND presentation box with a raised emblem"
                                 loading="lazy"
                             />
@@ -80,7 +81,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/brand-stationery.png"
+                                src={publicAsset("/images/brand-stationery.png")}
                                 alt="ARTRƎELAND stationery, business card, and embossed envelope"
                                 loading="lazy"
                             />
@@ -88,7 +89,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/wooden-brand-stamp.png"
+                                src={publicAsset("/images/wooden-brand-stamp.png")}
                                 alt="Wooden stamp engraved with the ARTRƎELAND emblem"
                                 loading="lazy"
                             />
@@ -96,7 +97,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/pink-brand-shopping-bag.png"
+                                src={publicAsset("/images/pink-brand-shopping-bag.png")}
                                 alt="Pink ARTRƎELAND shopping bag with black handles"
                                 loading="lazy"
                             />
@@ -104,7 +105,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/monochrome-everyday-carry.png"
+                                src={publicAsset("/images/monochrome-everyday-carry.png")}
                                 alt="ARTRƎELAND monochrome apparel and everyday accessories collection"
                                 loading="lazy"
                             />
@@ -112,7 +113,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/noir-accessories-flatlay.png"
+                                src={publicAsset("/images/noir-accessories-flatlay.png")}
                                 alt="ARTRƎELAND accessories arranged in a dark flat-lay"
                                 loading="lazy"
                             />
@@ -120,7 +121,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/noir-essentials-flatlay.png"
+                                src={publicAsset("/images/noir-essentials-flatlay.png")}
                                 alt="ARTRƎELAND black essentials collection"
                                 loading="lazy"
                             />
@@ -128,7 +129,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/streetwear-product-showcase.png"
+                                src={publicAsset("/images/streetwear-product-showcase.png")}
                                 alt="ARTRƎELAND streetwear collection showcase"
                                 loading="lazy"
                             />
@@ -136,7 +137,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/urban-essentials-flatlay.png"
+                                src={publicAsset("/images/urban-essentials-flatlay.png")}
                                 alt="ARTRƎELAND urban clothing and accessories"
                                 loading="lazy"
                             />
@@ -144,7 +145,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/be-in-the-now-showcase.png"
+                                src={publicAsset("/images/be-in-the-now-showcase.png")}
                                 alt="ARTRƎELAND Be In The Now apparel showcase"
                                 loading="lazy"
                             />
@@ -152,7 +153,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/luxury-artreeland-cap-showcase.png"
+                                src={publicAsset("/images/luxury-artreeland-cap-showcase.png")}
                                 alt="ARTRƎELAND embroidered cap design showcase"
                                 loading="lazy"
                             />
@@ -160,7 +161,7 @@ export default function About() {
                         </figure>
                         <figure>
                             <img
-                                src="/images/artreeland-embroidered-cap.png"
+                                src={publicAsset("/images/artreeland-embroidered-cap.png")}
                                 alt="Black embroidered ARTRƎELAND cap"
                                 loading="lazy"
                             />

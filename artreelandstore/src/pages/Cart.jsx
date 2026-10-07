@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Trash2, Minus, Plus } from "lucide-react";
 
 import { useCart } from "../context/CartContext";
+import { publicAsset } from "../utils/publicAsset";
 
 export default function Cart() {
     const {
@@ -49,7 +50,7 @@ export default function Cart() {
                         >
 
                             <img
-                                src={item.images?.[0]}
+                                src={publicAsset(item.images?.[0] || "")}
                                 alt={item.name}
                             />
 

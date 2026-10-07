@@ -1,7 +1,9 @@
 # ARTRƎELAND Storefront
 
-The storefront is built with React and Vite. Run `npm ci`, `npm run dev`, and
-`npm run lint` from this directory during local development.
+The storefront is built with React and Vite. From the repository root, run
+`npm --prefix artreelandstore ci`, `npm --prefix artreelandstore run dev`, and
+`npm --prefix artreelandstore run lint`. Alternatively, change into this
+directory first and run the commands without the `--prefix` option.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -68,3 +70,16 @@ validation. See the
 [PayFast Developer Docs](https://developers.payfast.co.za/docs#quickstart)
 for merchant setup. Never put PayFast secrets in frontend code or commit them
 to Git.
+
+## GitHub Pages deployment
+
+Push to `main` or `master` to build the static storefront and publish it to the
+`gh-pages` branch. After the first successful **Deploy GitHub Pages** workflow,
+open the repository's **Settings → Pages** and set the source to **Deploy from
+a branch**, select `gh-pages` and `/(root)`, then save. The project-site URL is
+`https://kathost.github.io/ArtreelandStore/`.
+
+GitHub Pages cannot run the PHP/MySQL checkout. The Pages build therefore
+disables online checkout and excludes the PHP API, Apache rules, and SQL seed
+from the published files. For real PayFast payments, deploy the full `dist`
+directory to the PHP-enabled HostAfrica hosting described above.

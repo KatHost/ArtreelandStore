@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { publicAsset } from "../../utils/publicAsset";
 
 export default function ProductGallery({
     images = [],
@@ -20,7 +21,7 @@ export default function ProductGallery({
 
             <div className="product-gallery-main">
                 <img
-                    src={images[selectedImage] || images[0]}
+                    src={publicAsset(images[selectedImage] || images[0])}
                     alt={name}
                     loading="eager"
                     className={`gallery-main-image${imageFit === "contain" ? " gallery-main-image--contain" : ""}`}
@@ -43,7 +44,7 @@ export default function ProductGallery({
                         aria-pressed={selectedImage === index}
                     >
                         <img
-                            src={image}
+                            src={publicAsset(image)}
                             alt={`${name} ${index + 1}`}
                             className={imageFit === "contain" ? "gallery-thumbnail-image--contain" : ""}
                         />

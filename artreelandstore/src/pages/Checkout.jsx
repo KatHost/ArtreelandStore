@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 import { useCart } from "../context/CartContext";
 import { beginPayFastCheckout } from "../services/payfast";
+import { publicAsset } from "../utils/publicAsset";
+
+const PAYMENTS_ENABLED = import.meta.env.VITE_PAYMENTS_ENABLED !== "false";
 
 export default function Checkout() {
     const { cartItems, cartTotal } = useCart();
@@ -70,6 +73,29 @@ export default function Checkout() {
                     RETURN TO SHOP
                 </Link>
             </div>
+        );
+    }
+
+    if (!PAYMENTS_ENABLED) {
+        return (
+            <main className="container-custom checkout-page checkout-unavailable">
+                <p className="eyebrow">CHECKOUT</p>
+                <h1 className="page-title">ONLINE PAYMENT UNAVAILABLE</h1>
+                <section className="checkout-summary">
+                    <p>
+                        This GitHub Pages storefront is a static site and cannot
+                        securely process payments. Your cart is saved, but no
+                        shipping or payment details have been collected.
+                    </p>
+                    <p>
+                        Please contact ARTRƎELAND to place an order while secure
+                        checkout is being hosted on a PHP-enabled server.
+                    </p>
+                    <Link to="/contact" className="btn-primary-custom">
+                        CONTACT ARTRƎELAND
+                    </Link>
+                </section>
+            </main>
         );
     }
 
@@ -473,7 +499,7 @@ export default function Checkout() {
                             key={`${item.id}-${item.selectedSize}`}
                         >
                             <img
-                                src={item.images?.[0]}
+                                src={publicAsset(item.images?.[0] || "")}
                                 alt={item.name}
                             />
 

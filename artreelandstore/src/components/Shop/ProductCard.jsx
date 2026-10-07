@@ -8,6 +8,7 @@ import {
 
 import { useCart } from "../../context/CartContext";
 import { useWishlist } from "../../context/WishlistContext";
+import { publicAsset } from "../../utils/publicAsset";
 
 export default function ProductCard({ product }) {
     const { addToCart } = useCart();
@@ -30,7 +31,7 @@ export default function ProductCard({ product }) {
 
                 <Link to={`/product/${product.id}`}>
                     <img
-                        src={product.images?.[0]}
+                        src={publicAsset(product.images?.[0] || "")}
                         alt={product.name}
                         className={`product-image${product.imageFit === "contain" ? " product-image--contain" : ""}`}
                         loading="lazy"

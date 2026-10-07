@@ -1,0 +1,136 @@
+- generic [ref=f34e2]:
+  - generic [ref=f34e4]:
+    - generic [ref=f34e5]: Free shipping on orders over R999
+    - generic [ref=f34e11]: Wear the culture. Live the lifestyle.
+    - generic [ref=f34e12]:
+      - text: EN
+      - generic [ref=f34e13]: ·
+      - text: ZAR
+  - banner [ref=f34e14]:
+    - generic [ref=f34e15]:
+      - link "ARTRƎELAND" [ref=f34e16] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f34e17]:
+        - link "Home" [ref=f34e18] [cursor=pointer]:
+          - /url: /
+        - link "Shop" [ref=f34e19] [cursor=pointer]:
+          - /url: /shop
+        - link "About" [ref=f34e20] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f34e21] [cursor=pointer]:
+          - /url: /contact
+        - button "Categories" [ref=f34e23] [cursor=pointer]
+      - generic [ref=f34e26]:
+        - button "Search products" [ref=f34e27]
+        - button "Account" [ref=f34e31]
+        - button "Wishlist" [ref=f34e35]
+        - button "Shopping cart" [ref=f34e38]
+  - main [ref=f34e42]:
+    - generic [ref=f34e43]:
+      - generic [ref=f34e44]:
+        - paragraph [ref=f34e45]: ARTRƎELAND COLLECTION
+        - heading "ALL PRODUCTS" [level=1] [ref=f34e46]
+        - paragraph [ref=f34e47]: Shop ARTRƎELAND streetwear and selected footwear.
+      - generic [ref=f34e48]:
+        - complementary [ref=f34e49]:
+          - complementary [ref=f34e50]:
+            - heading "FILTERS" [level=3] [ref=f34e52]
+            - generic [ref=f34e53]:
+              - heading "Categories" [level=3] [ref=f34e54]
+              - generic [ref=f34e55]:
+                - checkbox "Men" [ref=f34e56]
+                - text: Men
+              - generic [ref=f34e57]:
+                - checkbox "Accessories" [ref=f34e58]
+                - text: Accessories
+              - generic [ref=f34e59]:
+                - checkbox "Shoes" [ref=f34e60]
+                - text: Shoes
+              - separator [ref=f34e61]
+              - heading "Brands" [level=3] [ref=f34e62]
+              - generic [ref=f34e63]:
+                - checkbox "ARTRƎELAND" [ref=f34e64]
+                - text: ARTRƎELAND
+              - generic [ref=f34e65]:
+                - checkbox "Nike" [ref=f34e66]
+                - text: Nike
+              - generic [ref=f34e67]:
+                - checkbox "adidas" [ref=f34e68]
+                - text: adidas
+              - generic [ref=f34e69]:
+                - checkbox "Jordan" [ref=f34e70]
+                - text: Jordan
+              - generic [ref=f34e71]:
+                - checkbox "New Balance" [ref=f34e72]
+                - text: New Balance
+              - generic [ref=f34e73]:
+                - checkbox "RAW" [ref=f34e74]
+                - text: RAW
+              - generic [ref=f34e75]:
+                - checkbox "ASICS" [ref=f34e76]
+                - text: ASICS
+              - separator [ref=f34e77]
+              - heading "Maximum Price" [level=3] [ref=f34e78]
+              - slider [ref=f34e79]: "5000"
+              - paragraph [ref=f34e80]: Up to R5000
+              - separator [ref=f34e81]
+              - button "Reset Filters" [ref=f34e82]
+        - generic [ref=f34e83]:
+          - generic [ref=f34e84]:
+            - searchbox "Search products" [ref=f34e89]
+            - combobox "Sort products" [ref=f34e90]:
+              - option "Newest" [selected]
+              - 'option "Price: Low to High"'
+              - 'option "Price: High to Low"'
+              - option "Highest Rated"
+              - option "A to Z"
+            - generic [ref=f34e91]:
+              - button "Grid view" [ref=f34e92]
+              - button "List view" [ref=f34e95]
+          - generic [ref=f34e97]: Showing ... of 21 products
+  - contentinfo [ref=f34e129]:
+    - generic [ref=f34e130]:
+      - generic [ref=f34e131]:
+        - generic [ref=f34e132]:
+          - link "ARTRƎELAND" [ref=f34e133] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f34e134]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f34e135]:
+            - link "Instagram" [ref=f34e136] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f34e140] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f34e143]:
+          - heading "Explore" [level=4] [ref=f34e144]
+          - generic [ref=f34e145]:
+            - link "Shop All" [ref=f34e146] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f34e147] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f34e148] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f34e149] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f34e150]:
+          - heading "Customer Care" [level=4] [ref=f34e151]
+          - generic [ref=f34e152]:
+            - link "Contact Us" [ref=f34e153] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f34e154] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f34e155] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f34e156] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f34e157]:
+          - heading "Discover" [level=4] [ref=f34e158]
+          - generic [ref=f34e159]:
+            - link "About ARTRƎELAND" [ref=f34e160] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f34e161] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f34e162] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f34e163]:
+        - generic [ref=f34e164]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f34e165]: Designed for self-expression.

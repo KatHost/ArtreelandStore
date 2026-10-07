@@ -1,0 +1,132 @@
+- generic [active] [ref=f59e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f59e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f59e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-ZA
+  - generic [ref=f59e8]:
+    - search [ref=f59e9]:
+      - generic [ref=f59e11]:
+        - link "Go to Google Home" [ref=f59e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQPHoECAYQBA
+        - generic [ref=f59e22]:
+          - combobox "Search" [ref=f59e24]: site:hostafrica.co.za/knowledgebase PHP MySQL shared hosting cPanel site:hostafrica.co.za/knowledgebase PHP MySQL shared hosting cPanel
+          - generic [ref=f59e25]:
+            - button "Clear" [ref=f59e29] [cursor=pointer]
+            - generic [ref=f59e34]:
+              - button "Search by voice" [ref=f59e37] [cursor=pointer]
+              - button "Search by image" [ref=f59e42] [cursor=pointer]
+    - generic [ref=f59e45]:
+      - button "Share" [ref=f59e46] [cursor=pointer]
+      - generic [ref=f59e52]:
+        - button "Google apps" [ref=f59e54] [cursor=pointer]
+        - 'button "Google Account: Artreeland SA (kay6t9.kc@gmail.com)" [ref=f59e59] [cursor=pointer]'
+  - generic [ref=f59e62]:
+    - navigation [ref=f59e68]:
+      - generic [ref=f59e74]:
+        - list [ref=f59e75]:
+          - listitem [ref=f59e76]:
+            - link "AI Mode" [ref=f59e79] [cursor=pointer]:
+              - /url: /search?q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQ2J8OegQIEBAD
+          - listitem [ref=f59e83]:
+            - link "All" [disabled] [ref=f59e84]
+          - listitem [ref=f59e87]:
+            - link "Videos" [ref=f59e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQtKgLegQIFhAB
+          - listitem [ref=f59e91]:
+            - link "Images" [ref=f59e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQtKgLegQIFRAB
+          - listitem [ref=f59e95]:
+            - link "Forums" [ref=f59e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQs6gLegQIFBAB
+          - listitem [ref=f59e99]:
+            - link "Short videos" [ref=f59e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQs6gLegQIExAB
+          - listitem [ref=f59e103]:
+            - link "Web" [ref=f59e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251&udm=web&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE-Dsslc-KGKq55jF_BVsFlBx_GgM0fzV1XsSsLkzcasT6GL8TyD5thZMOttfcpWPWIAf7gN7vYOlY1mkkIF_md_b4IuI91SAnYRPVXNnocDMeuG46qI-7c5TesMMA45VGyLyFHReGGNRUn4CTm7nNcuOLrhyOhKWs9y9B88Rdrei3FPD8w&q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&sa=X&ved=2ahUKEwijqonU5KGXAxW8jOEIHTHkLHkQs6gLegQIEhAB
+          - listitem [ref=f59e107]:
+            - button [ref=f59e108] [cursor=pointer]:
+              - generic "More filters" [ref=f59e109]: More
+        - button "Tools" [ref=f59e116] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f59e123]
+    - main [ref=f59e129]:
+      - region "Ads" [ref=f59e132]:
+        - generic [ref=f59e133]:
+          - heading "Sponsored result" [level=2] [ref=f59e140]
+          - generic [ref=f59e141]:
+            - generic [ref=f59e154]:
+              - generic [ref=f59e155]:
+                - link "Web Hosting for Beginners | Website Hosting South Africa HOSTAFRICA https://www.hostafrica.co.za" [ref=f59e156] [cursor=pointer]:
+                  - /url: https://hostafrica.co.za/hosting/web-hosting/
+                  - heading "Web Hosting for Beginners | Website Hosting South Africa" [level=3] [ref=f59e157]
+                  - generic [ref=f59e163]:
+                    - generic [ref=f59e164]: HOSTAFRICA
+                    - generic [ref=f59e166]: https://www.hostafrica.co.za
+                - button "Why this ad?" [ref=f59e169] [cursor=pointer]
+              - generic [ref=f59e173]: Great hosting, fast speeds, SA support & AI website builder. Top rated by HelloPeter. Hosting from R99/month. Start with 20GB SSD, email & daily backup. No.1 on HelloPeter. DNS Management. Quick Support Response. Proudly South African. 99.9% Uptime Guarantee. Highly Reliable.
+              - generic [ref=f59e176]: 100K+ visits in past month
+              - generic [ref=f59e181]:
+                - link "Web Hosting Free domain with selected hosting Register domain, start hosting" [ref=f59e185] [cursor=pointer]:
+                  - /url: https://www.hostafrica.co.za/web-hosting/
+                  - generic [ref=f59e186]: Web Hosting
+                  - generic [ref=f59e189]: Free domain with selected hosting Register domain, start hosting
+                - link "WordPress Hosting Launch your WordPress website From as little as R90 per month" [ref=f59e193] [cursor=pointer]:
+                  - /url: https://hostafrica.co.za/wordpress-hosting/
+                  - generic [ref=f59e194]: WordPress Hosting
+                  - generic [ref=f59e197]: Launch your WordPress website From as little as R90 per month
+                - link "Email Hosting Free .co.za domain name Fast & expert support" [ref=f59e201] [cursor=pointer]:
+                  - /url: https://hostafrica.co.za/email-hosting/
+                  - generic [ref=f59e202]: Email Hosting
+                  - generic [ref=f59e205]: Free .co.za domain name Fast & expert support
+                - link "Website Builder Build Your Dream Website in Minutes Intuitive AI Website Builder" [ref=f59e209] [cursor=pointer]:
+                  - /url: https://www.hostafrica.co.za/website-builder/
+                  - generic [ref=f59e210]: Website Builder
+                  - generic [ref=f59e213]: Build Your Dream Website in Minutes Intuitive AI Website Builder
+                - link "Free Domain With Hosting Build your brand online. Hosting + free domain + SSL. Trusted by 100k users, 5* Support!" [ref=f59e217] [cursor=pointer]:
+                  - /url: /aclk?sa=L&pf=1&ai=DChsSEwj8iY7U5KGXAxV30zwCHU9bDikYACICCAEQBRoCc2Y&co=1&ase=2&gclid=Cj0KCQjw8ofWBhCHARIsANBj4LtIUxediSM6YRMCdbYAAcuziBWU17A4zBLzNussdu_5bxmHkUmE-KAaAnCPEALw_wcB&cid=CAASugHkaGLV4tUDAutwSq6tgU_q-SUHqvXNrcVsoIOgUdk9DlwNkCGgoW5Fd2jXv2SPyoCBtJaqdRzAyJ5im8aNHLdpjgRbZ4HvfF7KtmQ2l67eykf0PRiIwutHM-VjWuP_Bb5KJr_QRRH9p62NGKKIJDZrqBRk8bLRVC7Wm-hvpEpPlvSZdZImDtJ5TCIcRPWBul48S3WBwqVWi9fFlPRCkwQTvvBOutUJt_vhlP6gSMHfqJI3Q4X2ugLeCok&cce=2&category=acrcp_v1_32&sig=AOD64_3RdNGw-1A6UuGwL7awT3FlLcCBgw&adurl=https://hostafrica.co.za/web-hosting/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dweb-hosting%26utm_adgroup%3Dfree-domain%26adid%3D759837874471%26adposition%3D%26keyword%3Dhosting%2520companies%26device%3Dc%26gad_source%3D1%26gad_campaignid%3D22695731697%26gbraid%3D0AAAAADgfjqWW0eZQfyM5-gkeAwBWF9Pjd%26gclid%3DCj0KCQjw8ofWBhCHARIsANBj4LtIUxediSM6YRMCdbYAAcuziBWU17A4zBLzNussdu_5bxmHkUmE-KAaAnCPEALw_wcB&q=
+                  - generic [ref=f59e218]: Free Domain With Hosting
+                  - generic [ref=f59e221]: Build your brand online. Hosting + free domain + SSL. Trusted by 100k users, 5* Support!
+            - button "Hide sponsored result" [ref=f59e224] [cursor=pointer]:
+              - separator [aria-hidden] [ref=f59e225]
+      - generic [ref=f59e232]:
+        - generic [ref=f59e234]:
+          - heading [level=3] [ref=f59e235]:
+            - text: Your search -
+            - emphasis [ref=f59e237]: site:hostafrica.co.za/knowledgebase PHP MySQL shared hosting cPanel
+            - text: "- did not match any documents."
+          - paragraph [ref=f59e238]: "Suggestions:"
+          - list [ref=f59e239]:
+            - listitem [ref=f59e240]: Make sure that all words are spelled correctly.
+            - listitem [ref=f59e241]: Try different keywords.
+            - listitem [ref=f59e242]: Try more general keywords.
+            - listitem [ref=f59e243]: Try fewer keywords.
+        - navigation
+      - navigation
+    - contentinfo [ref=f59e244]:
+      - heading "Footer links" [level=1] [ref=f59e245]
+      - generic [ref=f59e249]:
+        - generic [ref=f59e252]:
+          - generic [ref=f59e253]: Results are personalised
+          - generic [ref=f59e254]: "-"
+          - link "Try without personalisation" [ref=f59e256] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:hostafrica.co.za/knowledgebase+PHP+MySQL+shared+hosting+cPanel&peek_pws=0&sxsrf=APpeQnvEwJa6zXi5rTGkMUqB32zcqJQkHg:1791165821251
+        - generic [ref=f59e259]:
+          - text: South Africa
+          - generic [ref=f59e261]:
+            - button "Doornfontein, Johannesburg - Based on your places (Home)" [ref=f59e263] [cursor=pointer]:
+              - generic [ref=f59e264]: Doornfontein, Johannesburg
+              - generic [ref=f59e266]:
+                - text: "-"
+                - generic [ref=f59e267]: Based on your places (Home)
+            - text: "-"
+            - button "Update location" [ref=f59e269] [cursor=pointer]
+        - generic [ref=f59e272]:
+          - link "Help" [ref=f59e273] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-ZA&fg=1
+          - link "Send feedback" [ref=f59e274] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f59e275] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-ZA&fg=1
+          - link "Terms" [ref=f59e276] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-ZA&fg=1

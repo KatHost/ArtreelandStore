@@ -1,0 +1,277 @@
+- generic [active] [ref=f70e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f70e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f70e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-ZA
+  - generic [ref=f70e8]:
+    - search [ref=f70e9]:
+      - generic [ref=f70e11]:
+        - link "Go to Google Home" [ref=f70e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQPHoECAYQBA
+        - generic [ref=f70e22]:
+          - combobox "Search" [ref=f70e24]: HostAfrica knowledgebase PHP MySQL shared hosting cPanel site:hostafrica.co.za OR site:hostafrica.com HostAfrica knowledgebase PHP MySQL shared hosting cPanel site:hostafrica.co.za OR site:hostafrica.com
+          - generic [ref=f70e25]:
+            - button "Clear" [ref=f70e29] [cursor=pointer]
+            - generic [ref=f70e34]:
+              - button "Search by voice" [ref=f70e37] [cursor=pointer]
+              - button "Search by image" [ref=f70e42] [cursor=pointer]
+    - generic [ref=f70e45]:
+      - button "Share" [ref=f70e46] [cursor=pointer]
+      - generic [ref=f70e52]:
+        - button "Google apps" [ref=f70e54] [cursor=pointer]
+        - 'button "Google Account: Artreeland SA (kay6t9.kc@gmail.com)" [ref=f70e59] [cursor=pointer]'
+  - generic [ref=f70e62]:
+    - navigation [ref=f70e68]:
+      - generic [ref=f70e74]:
+        - list [ref=f70e75]:
+          - listitem [ref=f70e76]:
+            - link "AI Mode" [ref=f70e79] [cursor=pointer]:
+              - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ2J8OegQIERAD
+          - listitem [ref=f70e83]:
+            - link "All" [disabled] [ref=f70e84]
+          - listitem [ref=f70e87]:
+            - link "Videos" [ref=f70e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQtKgLegQIFxAB
+          - listitem [ref=f70e91]:
+            - link "Forums" [ref=f70e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQs6gLegQIFhAB
+          - listitem [ref=f70e95]:
+            - link "Images" [ref=f70e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQtKgLegQIExAB
+          - listitem [ref=f70e99]:
+            - link "Short videos" [ref=f70e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQs6gLegQIFRAB
+          - listitem [ref=f70e103]:
+            - link "News" [ref=f70e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE5XdvSlI_LORjvMqi_KlDwkgv0zYxJdoCL2NzkSVgWxpAV5uEs4t1pPn-XurabSV9VIHGyRDtz2nWdzOpWVeRfiF71mAEOBi1Q-CwjwfBmj7fWxvjq_ArnoYrqD2xiWcqITDNe-sNY5Pavjm5uLvriyJKSWTWpJbF_bb5J3J4prPNXoufA&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ0pQJegQIFBAB
+          - listitem [ref=f70e107]:
+            - button [ref=f70e108] [cursor=pointer]:
+              - generic "More filters" [ref=f70e109]: More
+        - button "Tools" [ref=f70e116] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f70e123]
+    - main [ref=f70e129]:
+      - generic [ref=f70e133]:
+        - generic [ref=f70e136]:
+          - heading "Web results" [level=2] [ref=f70e137]
+          - generic [ref=f70e138]:
+            - generic [ref=f70e141]:
+              - 'link "How to Host a PHP Website: Master the Hosting Essentials hostafrica https://hostafrica.co.za › blog › how-to-host-php-a-web..." [ref=f70e143] [cursor=pointer]':
+                - /url: https://hostafrica.co.za/blog/hosting/how-to-host-php-a-website/
+                - 'heading "How to Host a PHP Website: Master the Hosting Essentials" [level=3] [ref=f70e144]'
+                - generic [ref=f70e150]:
+                  - generic [ref=f70e151]: hostafrica
+                  - generic [ref=f70e153]: https://hostafrica.co.za › blog › how-to-host-php-a-web...
+              - button "About this result" [ref=f70e159] [cursor=pointer]
+            - generic [ref=f70e165]:
+              - generic [ref=f70e166]: 27 May 2026 —
+              - generic [ref=f70e167]:
+                - emphasis [ref=f70e168]: Use the 'MySQL Databases' option in cPanel
+                - text: to create your new database. Give it a name and let cPanel take care of the rest, ensuring it's ...
+        - generic [ref=f70e172]:
+          - generic [ref=f70e175]:
+            - link "Beginners guide to cPanel & WHM on CentOS 7 hostafrica https://hostafrica.co.za › blog › cpanel › configure-cpanel" [ref=f70e177] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/hosting/cpanel/configure-cpanel/
+              - heading "Beginners guide to cPanel & WHM on CentOS 7" [level=3] [ref=f70e178]
+              - generic [ref=f70e184]:
+                - generic [ref=f70e185]: hostafrica
+                - generic [ref=f70e187]: https://hostafrica.co.za › blog › cpanel › configure-cpanel
+            - button "About this result" [ref=f70e193] [cursor=pointer]
+          - generic [ref=f70e199]:
+            - generic [ref=f70e200]: 14 Sept 2026 —
+            - generic [ref=f70e201]:
+              - emphasis [ref=f70e202]: cPanel
+              - text: is a powerful, feature-rich control panel for web hosting services. simplifies the management of shared, reseller hosting,
+        - generic [ref=f70e206]:
+          - generic [ref=f70e209]:
+            - link "cPanel Web Hosting in South Africa hostafrica https://hostafrica.co.za › hosting" [ref=f70e211] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/hosting/cpanel-web-hosting/
+              - heading "cPanel Web Hosting in South Africa" [level=3] [ref=f70e212]
+              - generic [ref=f70e218]:
+                - generic [ref=f70e219]: hostafrica
+                - generic [ref=f70e221]: https://hostafrica.co.za › hosting
+            - button "About this result" [ref=f70e227] [cursor=pointer]
+          - generic [ref=f70e233]:
+            - generic [ref=f70e234]:
+              - text: At
+              - emphasis [ref=f70e235]: HOSTAFRICA
+              - text: ", you get the same control and features you expect from"
+              - emphasis [ref=f70e236]: cPanel
+              - text: – delivered through DirectAdmin, our chosen alternative to the
+              - emphasis [ref=f70e237]: cPanel control panel
+              - text: .
+            - link "Read more" [ref=f70e238] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/hosting/cpanel-web-hosting/#:~:text=At%20HOSTAFRICA%2C%20you%20get%20the,to%20the%20cPanel%20control%20panel.
+        - generic [ref=f70e242]:
+          - generic [ref=f70e245]:
+            - link "How To - A Short Mysql Tutorial With Examples - 01 hostafrica https://hostafrica.co.za › blog › howto-mysql-short-tuto..." [ref=f70e247] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/howto-mysql-short-tutorial-with-examples/
+              - heading "How To - A Short Mysql Tutorial With Examples - 01" [level=3] [ref=f70e248]
+              - generic [ref=f70e254]:
+                - generic [ref=f70e255]: hostafrica
+                - generic [ref=f70e257]: https://hostafrica.co.za › blog › howto-mysql-short-tuto...
+            - button "About this result" [ref=f70e263] [cursor=pointer]
+          - generic [ref=f70e269]:
+            - generic [ref=f70e270]: 14 Sept 2026 —
+            - generic [ref=f70e271]:
+              - text: If you're getting started with
+              - emphasis [ref=f70e272]: MySQL
+              - text: and SQL databases, these related tutorials can help you expand your knowledge with practical examples and ...
+            - link "Read more" [ref=f70e273] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/howto-mysql-short-tutorial-with-examples/#:~:text=If%20you're%20getting%20started%20with,examples%20and%20database%20design%20fundamentals%3A
+        - generic [ref=f70e277]:
+          - generic [ref=f70e280]:
+            - 'link "PHP Web Hosting: A Fundamental Guide hostafrica https://hostafrica.co.za › blog › what-is-php-web-hosting" [ref=f70e282] [cursor=pointer]':
+              - /url: https://hostafrica.co.za/blog/hosting/what-is-php-web-hosting/
+              - 'heading "PHP Web Hosting: A Fundamental Guide" [level=3] [ref=f70e283]'
+              - generic [ref=f70e289]:
+                - generic [ref=f70e290]: hostafrica
+                - generic [ref=f70e292]: https://hostafrica.co.za › blog › what-is-php-web-hosting
+            - button "About this result" [ref=f70e298] [cursor=pointer]
+          - generic [ref=f70e304]:
+            - generic [ref=f70e305]: 27 May 2026 —
+            - generic [ref=f70e306]:
+              - text: Grasp the concept of
+              - emphasis [ref=f70e307]: PHP web hosting
+              - text: with our detailed guide, featuring its benefits, potential drawbacks and choosing tips.
+        - generic [ref=f70e311]:
+          - generic [ref=f70e314]:
+            - link "WHM/cPanel DNSONLY overview and setup hostafrica https://hostafrica.co.za › blog › software › whm-cpanel-..." [ref=f70e316] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/software/whm-cpanel-dnsonly-overview-and-setup/
+              - heading "WHM/cPanel DNSONLY overview and setup" [level=3] [ref=f70e317]
+              - generic [ref=f70e323]:
+                - generic [ref=f70e324]: hostafrica
+                - generic [ref=f70e326]: https://hostafrica.co.za › blog › software › whm-cpanel-...
+            - button "About this result" [ref=f70e332] [cursor=pointer]
+          - generic [ref=f70e338]:
+            - generic [ref=f70e339]: 01 Jun 2026 —
+            - generic [ref=f70e340]:
+              - emphasis [ref=f70e341]: cPanel
+              - text: is a web hosting control panel based on Linux, which comes with automation tools, and a graphical interface.
+            - link "Read more" [ref=f70e342] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/software/whm-cpanel-dnsonly-overview-and-setup/#:~:text=cPanel%20is%20a%20web%20hosting,tools%2C%20and%20a%20graphical%20interface.
+        - generic [ref=f70e346]:
+          - generic [ref=f70e349]:
+            - link "FAQ | Top Web Hosting Features, Security & Developer Tools hostafrica https://hostafrica.co.za › blog › how-to › faq-series-4-to..." [ref=f70e351] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/how-to/faq-series-4-top-web-hosting-features-security-developer-tools-available-in-africa/
+              - heading "FAQ | Top Web Hosting Features, Security & Developer Tools" [level=3] [ref=f70e352]
+              - generic [ref=f70e358]:
+                - generic [ref=f70e359]: hostafrica
+                - generic [ref=f70e361]: https://hostafrica.co.za › blog › how-to › faq-series-4-to...
+            - button "About this result" [ref=f70e367] [cursor=pointer]
+          - generic [ref=f70e373]:
+            - generic [ref=f70e374]: 27 May 2026 —
+            - generic [ref=f70e375]:
+              - emphasis [ref=f70e376]: HOSTAFRICA supports one-click installations for Joomla and Drupal via cPanel
+              - text: ", with optimized server environments that meet the PHP and MySQL ..."
+            - link "Read more" [ref=f70e377] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/how-to/faq-series-4-top-web-hosting-features-security-developer-tools-available-in-africa/#:~:text=HOSTAFRICA%20supports%20one%2Dclick%20installations%20for,requirements%20of%20both%20CMS%20platforms.
+        - generic [ref=f70e381]:
+          - generic [ref=f70e384]:
+            - link "How to Host Your Own Website in 5 steps hostafrica https://hostafrica.co.za › blog › tutorials › how-to-host-..." [ref=f70e386] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/how-to-host-a-website/
+              - heading "How to Host Your Own Website in 5 steps" [level=3] [ref=f70e387]
+              - generic [ref=f70e393]:
+                - generic [ref=f70e394]: hostafrica
+                - generic [ref=f70e396]: https://hostafrica.co.za › blog › tutorials › how-to-host-...
+            - button "About this result" [ref=f70e402] [cursor=pointer]
+          - generic [ref=f70e408]:
+            - generic [ref=f70e409]: 01 Jun 2026 —
+            - generic [ref=f70e410]:
+              - text: The final step is to upload your website to the hosting server. When doing so, you have two options. The first is by using
+              - emphasis [ref=f70e411]: c
+              - text: Panel. Here, you'll ...
+            - link "Read more" [ref=f70e412] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/how-to-host-a-website/#:~:text=The%20final%20step%20is%20to,find%20the%20File%20Manager%20option.
+        - generic [ref=f70e416]:
+          - generic [ref=f70e419]:
+            - link "What is Web Hosting? Definition, Types, Pricing, and More hostafrica https://hostafrica.co.za › blog › hosting › what-is-web-h..." [ref=f70e421] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/hosting/what-is-web-hosting-a-beginners-guide/
+              - heading "What is Web Hosting? Definition, Types, Pricing, and More" [level=3] [ref=f70e422]
+              - generic [ref=f70e428]:
+                - generic [ref=f70e429]: hostafrica
+                - generic [ref=f70e431]: https://hostafrica.co.za › blog › hosting › what-is-web-h...
+            - button "About this result" [ref=f70e437] [cursor=pointer]
+          - generic [ref=f70e443]:
+            - generic [ref=f70e444]: 27 May 2026 —
+            - generic [ref=f70e445]:
+              - emphasis [ref=f70e446]: cPanel
+              - text: ": A widely used hosting control panel that allows users to manage files, domains, databases, and emails through a graphical interface."
+            - link "Read more" [ref=f70e447] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/hosting/what-is-web-hosting-a-beginners-guide/#:~:text=cPanel%3A%20A%20widely%20used%20hosting,emails%20through%20a%20graphical%20interface.
+        - generic [ref=f70e451]:
+          - generic [ref=f70e454]:
+            - link "How to start your own Social Network Platform hostafrica https://hostafrica.co.za › blog › tutorials › start-your-ow..." [ref=f70e456] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/start-your-own-social-network-platform/
+              - heading "How to start your own Social Network Platform" [level=3] [ref=f70e457]
+              - generic [ref=f70e463]:
+                - generic [ref=f70e464]: hostafrica
+                - generic [ref=f70e466]: https://hostafrica.co.za › blog › tutorials › start-your-ow...
+            - button "About this result" [ref=f70e472] [cursor=pointer]
+          - generic [ref=f70e478]:
+            - generic [ref=f70e479]: 24 Aug 2026 —
+            - generic [ref=f70e480]:
+              - emphasis [ref=f70e481]: How to get a Hosting Plan for your Social Network Platform
+              - text: . To purchase a hosting plan, go to our cPanel hosting page and choose your package.
+            - link "Read more" [ref=f70e482] [cursor=pointer]:
+              - /url: https://hostafrica.co.za/blog/tutorials/start-your-own-social-network-platform/#:~:text=How%20to%20get%20a%20Hosting,page%20and%20choose%20your%20package.
+      - generic [ref=f70e484]:
+        - generic [ref=f70e489]:
+          - heading "People also search for" [level=2] [ref=f70e491]
+          - generic [ref=f70e493]:
+            - generic [ref=f70e494]:
+              - link "Hostafrica knowledgebase php mysql shared hosting cpanel login" [ref=f70e498] [cursor=pointer]:
+                - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&q=Hostafrica+knowledgebase+php+mysql+shared+hosting+cpanel+login&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ1QJ6BAguEAE
+              - link "Hostafrica knowledgebase php mysql shared hosting cpanel free" [ref=f70e512] [cursor=pointer]:
+                - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&q=Hostafrica+knowledgebase+php+mysql+shared+hosting+cpanel+free&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ1QJ6BAgsEAE
+            - link "Hostafrica knowledgebase php mysql shared hosting cpanel price" [ref=f70e527] [cursor=pointer]:
+              - /url: /search?sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&q=Hostafrica+knowledgebase+php+mysql+shared+hosting+cpanel+price&sa=X&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ1QJ6BAgtEAE
+        - navigation [ref=f70e538]:
+          - heading "Page navigation" [level=1] [ref=f70e539]
+          - text: "1"
+          - link "Page 2" [ref=f70e542] [cursor=pointer]:
+            - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=10&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8tMDegQIKhAE
+            - text: "2"
+          - link "Page 3" [ref=f70e544] [cursor=pointer]:
+            - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=20&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8tMDegQIKhAG
+            - text: "3"
+          - link "Page 4" [ref=f70e546] [cursor=pointer]:
+            - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=30&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8tMDegQIKhAI
+            - text: "4"
+          - link "Page 5" [ref=f70e548] [cursor=pointer]:
+            - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=40&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8tMDegQIKhAK
+            - text: "5"
+          - link "Page 6" [ref=f70e550] [cursor=pointer]:
+            - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=50&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8tMDegQIKhAM
+            - text: "6"
+          - heading [level=2] [ref=f70e552]:
+            - link "Next" [ref=f70e553] [cursor=pointer]:
+              - /url: /search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&sca_esv=f6b99ca7e3571d66&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229&ei=nwXDapDIDcKZhvcPwPKJ4Qs&start=10&sa=N&sstk=AS6-VmJfPqxuTd4V7-MS5ieC2C7Ep9XKU--w2KubQKQ7Ml2Ebo-0BmvKycOZbBxmYjxSI6B7vcrBNqijdYszJJuxymfAdxn4_R0T_g&ved=2ahUKEwjQk6Pk5KGXAxXCjOEIHUB5IrwQ8NMDegQIKhAO
+      - navigation
+    - contentinfo [ref=f70e556]:
+      - heading "Footer links" [level=1] [ref=f70e557]
+      - generic [ref=f70e561]:
+        - generic [ref=f70e564]:
+          - generic [ref=f70e565]: Results are personalised
+          - generic [ref=f70e566]: "-"
+          - link "Try without personalisation" [ref=f70e568] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=HostAfrica+knowledgebase+PHP+MySQL+shared+hosting+cPanel+site:hostafrica.co.za+OR+site:hostafrica.com&peek_pws=0&sxsrf=APpeQnvv_xHgUHDO7xAhS0mKd5w1KeFrMg:1791165855229
+        - generic [ref=f70e571]:
+          - text: South Africa
+          - generic [ref=f70e573]:
+            - button "Doornfontein, Johannesburg - Based on your places (Home)" [ref=f70e575] [cursor=pointer]:
+              - generic [ref=f70e576]: Doornfontein, Johannesburg
+              - generic [ref=f70e578]:
+                - text: "-"
+                - generic [ref=f70e579]: Based on your places (Home)
+            - text: "-"
+            - button "Update location" [ref=f70e581] [cursor=pointer]
+        - generic [ref=f70e584]:
+          - link "Help" [ref=f70e585] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-ZA&fg=1
+          - link "Send feedback" [ref=f70e586] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f70e587] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-ZA&fg=1
+          - link "Terms" [ref=f70e588] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-ZA&fg=1

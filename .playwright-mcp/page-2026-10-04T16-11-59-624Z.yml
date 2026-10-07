@@ -1,0 +1,366 @@
+- generic [ref=f19e2]:
+  - generic [ref=f19e4]:
+    - generic [ref=f19e5]: Free shipping on orders over R999
+    - generic [ref=f19e11]: Wear the culture. Live the lifestyle.
+    - generic [ref=f19e12]:
+      - text: EN
+      - generic [ref=f19e13]: ·
+      - text: ZAR
+  - banner [ref=f19e14]:
+    - generic [ref=f19e15]:
+      - link "ARTRƎELAND" [ref=f19e16] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f19e17]:
+        - link "Home" [ref=f19e18] [cursor=pointer]:
+          - /url: /
+        - link "Shop" [ref=f19e19] [cursor=pointer]:
+          - /url: /shop
+        - link "Categories" [ref=f19e20] [cursor=pointer]:
+          - /url: /#brands
+        - link "About" [ref=f19e21] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f19e22] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f19e23]:
+        - button "Search products" [ref=f19e24]
+        - button "Account" [ref=f19e28]
+        - button "Wishlist" [ref=f19e32]
+        - button "Shopping cart" [ref=f19e35]
+  - main [ref=f19e39]:
+    - generic [ref=f19e42]:
+      - generic [ref=f19e43]: THE NEW COLLECTION
+      - heading "MORE THAN JUST FASHION." [level=1] [ref=f19e44]: MORE THANJUST FASHION.
+      - paragraph [ref=f19e45]: ARTRƎELAND blends street culture, art and everyday footwear into pieces that move with you.
+      - generic [ref=f19e46]:
+        - link "SHOP SNEAKERS" [ref=f19e47] [cursor=pointer]:
+          - /url: /shop
+        - link "OUR STORY" [ref=f19e50] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f19e51]:
+        - generic [ref=f19e52]:
+          - generic [ref=f19e53]: "01"
+          - generic [ref=f19e54]: "02"
+          - generic [ref=f19e55]: "03"
+        - generic [ref=f19e56]: STEP INTO YOUR NEXT ROTATION
+    - region "Store highlights" [ref=f19e57]:
+      - generic [ref=f19e58]:
+        - generic [ref=f19e62]:
+          - strong [ref=f19e63]: Curated brands
+          - generic [ref=f19e64]: Pairs picked for your rotation
+        - generic [ref=f19e69]:
+          - strong [ref=f19e70]: Clear product details
+          - generic [ref=f19e71]: Sizes, condition and price upfront
+        - generic [ref=f19e76]:
+          - strong [ref=f19e77]: South African store
+          - generic [ref=f19e78]: Prices shown in rand
+        - generic [ref=f19e82]:
+          - strong [ref=f19e83]: Need a hand?
+          - generic [ref=f19e84]: Our contact page is one click away
+    - generic [ref=f19e86]:
+      - generic [ref=f19e87]:
+        - generic [ref=f19e88]:
+          - paragraph [ref=f19e89]: THE PAIRS EVERYONE WANTS
+          - heading "BEST SELLERS" [level=2] [ref=f19e90]
+          - paragraph [ref=f19e91]: Street icons and everyday favourites, handpicked.
+        - link "View all sneakers →" [ref=f19e92] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f19e93]:
+        - article [ref=f19e95]:
+          - generic [ref=f19e96]:
+            - link [ref=f19e97] [cursor=pointer]:
+              - /url: /product/1
+              - img "Air Max 90" [ref=f19e98]
+            - generic [ref=f19e99]: SALE
+            - generic [ref=f19e100]: NEW
+            - generic [ref=f19e101]:
+              - button "Add to wishlist" [ref=f19e102]
+              - button "Add to cart" [ref=f19e105]
+          - generic [ref=f19e109]:
+            - generic [ref=f19e110]: Nike · Shoes
+            - link [ref=f19e111] [cursor=pointer]:
+              - /url: /product/1
+              - heading "Air Max 90" [level=3] [ref=f19e112]
+            - generic [ref=f19e113]: 4.9 (124)
+            - generic [ref=f19e117]:
+              - generic [ref=f19e118]: R2199.00
+              - generic [ref=f19e119]: R2499.00
+        - article [ref=f19e121]:
+          - generic [ref=f19e122]:
+            - link [ref=f19e123] [cursor=pointer]:
+              - /url: /product/2
+              - img "Samba OG" [ref=f19e124]
+            - generic [ref=f19e125]: SALE
+            - generic [ref=f19e126]: NEW
+            - generic [ref=f19e127]:
+              - button "Add to wishlist" [ref=f19e128]
+              - button "Add to cart" [ref=f19e131]
+          - generic [ref=f19e135]:
+            - generic [ref=f19e136]: adidas · Shoes
+            - link [ref=f19e137] [cursor=pointer]:
+              - /url: /product/2
+              - heading "Samba OG" [level=3] [ref=f19e138]
+            - generic [ref=f19e139]: 4.8 (96)
+            - generic [ref=f19e143]:
+              - generic [ref=f19e144]: R1899.00
+              - generic [ref=f19e145]: R2199.00
+        - article [ref=f19e147]:
+          - generic [ref=f19e148]:
+            - link [ref=f19e149] [cursor=pointer]:
+              - /url: /product/3
+              - img "Air Jordan 1 Retro" [ref=f19e150]
+            - generic [ref=f19e151]: SALE
+            - generic [ref=f19e152]:
+              - button "Add to wishlist" [ref=f19e153]
+              - button "Add to cart" [ref=f19e156]
+          - generic [ref=f19e160]:
+            - generic [ref=f19e161]: Jordan · Shoes
+            - link [ref=f19e162] [cursor=pointer]:
+              - /url: /product/3
+              - heading "Air Jordan 1 Retro" [level=3] [ref=f19e163]
+            - generic [ref=f19e164]: 4.9 (74)
+            - generic [ref=f19e168]:
+              - generic [ref=f19e169]: R3299.00
+              - generic [ref=f19e170]: R3699.00
+        - article [ref=f19e172]:
+          - generic [ref=f19e173]:
+            - link [ref=f19e174] [cursor=pointer]:
+              - /url: /product/4
+              - img "550" [ref=f19e175]
+            - generic [ref=f19e176]: SALE
+            - generic [ref=f19e177]: NEW
+            - generic [ref=f19e178]:
+              - button "Add to wishlist" [ref=f19e179]
+              - button "Add to cart" [ref=f19e182]
+          - generic [ref=f19e186]:
+            - generic [ref=f19e187]: New Balance · Shoes
+            - link [ref=f19e188] [cursor=pointer]:
+              - /url: /product/4
+              - heading "550" [level=3] [ref=f19e189]
+            - generic [ref=f19e190]: 4.7 (62)
+            - generic [ref=f19e194]:
+              - generic [ref=f19e195]: R2399.00
+              - generic [ref=f19e196]: R2699.00
+    - generic [ref=f19e198]:
+      - generic [ref=f19e199]:
+        - generic [ref=f19e200]:
+          - paragraph [ref=f19e201]: FIND YOUR NEXT PAIR
+          - heading "SHOP BY BRAND" [level=2] [ref=f19e202]
+          - paragraph [ref=f19e203]: From everyday classics to statement pairs.
+        - link "View all collections →" [ref=f19e204] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f19e205]:
+        - link "NIKE Icons for every day NIKE ↗" [ref=f19e206] [cursor=pointer]:
+          - /url: /shop?brand=Nike
+          - img "NIKE" [ref=f19e207]
+          - generic [ref=f19e208]:
+            - generic [ref=f19e209]: Icons for every day
+            - heading "NIKE" [level=3] [ref=f19e210]
+            - generic [ref=f19e211]: ↗
+        - link "ADIDAS Originals and more ADIDAS ↗" [ref=f19e212] [cursor=pointer]:
+          - /url: /shop?brand=adidas
+          - img "ADIDAS" [ref=f19e213]
+          - generic [ref=f19e214]:
+            - generic [ref=f19e215]: Originals and more
+            - heading "ADIDAS" [level=3] [ref=f19e216]
+            - generic [ref=f19e217]: ↗
+        - link "JORDAN Built for the streets JORDAN ↗" [ref=f19e218] [cursor=pointer]:
+          - /url: /shop?brand=Jordan
+          - img "JORDAN" [ref=f19e219]
+          - generic [ref=f19e220]:
+            - generic [ref=f19e221]: Built for the streets
+            - heading "JORDAN" [level=3] [ref=f19e222]
+            - generic [ref=f19e223]: ↗
+        - link "NEW BALANCE Comfort meets culture NEW BALANCE ↗" [ref=f19e224] [cursor=pointer]:
+          - /url: /shop?brand=New%20Balance
+          - img "NEW BALANCE" [ref=f19e225]
+          - generic [ref=f19e226]:
+            - generic [ref=f19e227]: Comfort meets culture
+            - heading "NEW BALANCE" [level=3] [ref=f19e228]
+            - generic [ref=f19e229]: ↗
+    - generic [ref=f19e231]:
+      - paragraph [ref=f19e232]: MAKE EVERY STEP COUNT
+      - heading "YOUR NEXT EVERYDAY PAIR." [level=2] [ref=f19e233]: YOUR NEXTEVERYDAY PAIR.
+      - paragraph [ref=f19e234]: Find the pair you’ll keep reaching for.
+      - link "EXPLORE THE ROTATION" [ref=f19e235] [cursor=pointer]:
+        - /url: /shop
+    - generic [ref=f19e239]:
+      - generic [ref=f19e240]:
+        - generic [ref=f19e241]:
+          - paragraph [ref=f19e242]: FRESH TO THE ROTATION
+          - heading "JUST DROPPED" [level=2] [ref=f19e243]
+          - paragraph [ref=f19e244]: The latest pairs from the brands you rate.
+        - link "Shop all →" [ref=f19e245] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f19e246]:
+        - article [ref=f19e248]:
+          - generic [ref=f19e249]:
+            - link [ref=f19e250] [cursor=pointer]:
+              - /url: /product/1
+              - img "Air Max 90" [ref=f19e251]
+            - generic [ref=f19e252]: SALE
+            - generic [ref=f19e253]: NEW
+            - generic [ref=f19e254]:
+              - button "Add to wishlist" [ref=f19e255]
+              - button "Add to cart" [ref=f19e258]
+          - generic [ref=f19e262]:
+            - generic [ref=f19e263]: Nike · Shoes
+            - link [ref=f19e264] [cursor=pointer]:
+              - /url: /product/1
+              - heading "Air Max 90" [level=3] [ref=f19e265]
+            - generic [ref=f19e266]: 4.9 (124)
+            - generic [ref=f19e270]:
+              - generic [ref=f19e271]: R2199.00
+              - generic [ref=f19e272]: R2499.00
+        - article [ref=f19e274]:
+          - generic [ref=f19e275]:
+            - link [ref=f19e276] [cursor=pointer]:
+              - /url: /product/2
+              - img "Samba OG" [ref=f19e277]
+            - generic [ref=f19e278]: SALE
+            - generic [ref=f19e279]: NEW
+            - generic [ref=f19e280]:
+              - button "Add to wishlist" [ref=f19e281]
+              - button "Add to cart" [ref=f19e284]
+          - generic [ref=f19e288]:
+            - generic [ref=f19e289]: adidas · Shoes
+            - link [ref=f19e290] [cursor=pointer]:
+              - /url: /product/2
+              - heading "Samba OG" [level=3] [ref=f19e291]
+            - generic [ref=f19e292]: 4.8 (96)
+            - generic [ref=f19e296]:
+              - generic [ref=f19e297]: R1899.00
+              - generic [ref=f19e298]: R2199.00
+        - article [ref=f19e300]:
+          - generic [ref=f19e301]:
+            - link [ref=f19e302] [cursor=pointer]:
+              - /url: /product/4
+              - img "550" [ref=f19e303]
+            - generic [ref=f19e304]: SALE
+            - generic [ref=f19e305]: NEW
+            - generic [ref=f19e306]:
+              - button "Add to wishlist" [ref=f19e307]
+              - button "Add to cart" [ref=f19e310]
+          - generic [ref=f19e314]:
+            - generic [ref=f19e315]: New Balance · Shoes
+            - link [ref=f19e316] [cursor=pointer]:
+              - /url: /product/4
+              - heading "550" [level=3] [ref=f19e317]
+            - generic [ref=f19e318]: 4.7 (62)
+            - generic [ref=f19e322]:
+              - generic [ref=f19e323]: R2399.00
+              - generic [ref=f19e324]: R2699.00
+        - article [ref=f19e326]:
+          - generic [ref=f19e327]:
+            - link [ref=f19e328] [cursor=pointer]:
+              - /url: /product/5
+              - img "Air Force 1 '07" [ref=f19e329]
+            - generic [ref=f19e330]: SALE
+            - generic [ref=f19e331]: NEW
+            - generic [ref=f19e332]:
+              - button "Add to wishlist" [ref=f19e333]
+              - button "Add to cart" [ref=f19e336]
+          - generic [ref=f19e340]:
+            - generic [ref=f19e341]: Nike · Shoes
+            - link [ref=f19e342] [cursor=pointer]:
+              - /url: /product/5
+              - heading "Air Force 1 '07" [level=3] [ref=f19e343]
+            - generic [ref=f19e344]: 4.8 (111)
+            - generic [ref=f19e348]:
+              - generic [ref=f19e349]: R1999.00
+              - generic [ref=f19e350]: R2299.00
+    - generic [ref=f19e352]:
+      - paragraph [ref=f19e353]: STAY CONNECTED
+      - heading "BE THE FIRST TO KNOW." [level=2] [ref=f19e354]: BE THE FIRSTTO KNOW.
+      - paragraph [ref=f19e355]: Get updates about new collections, exclusive releases and special offers.
+      - generic [ref=f19e356]:
+        - textbox "Email address" [ref=f19e357]:
+          - /placeholder: Enter your email address
+        - button "Subscribe" [ref=f19e358]
+    - complementary "Mobile site preview" [ref=f19e361]:
+      - generic [ref=f19e363]:
+        - generic [ref=f19e364]:
+          - generic [ref=f19e365]: 9:41
+          - generic [ref=f19e366]: ●●● ▰
+        - generic [ref=f19e367]:
+          - link "ARTRƎELAND" [ref=f19e368] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f19e369]:
+            - link "Search products" [ref=f19e370] [cursor=pointer]:
+              - /url: /shop
+            - link "Wishlist" [ref=f19e374] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Shopping bag" [ref=f19e377] [cursor=pointer]:
+              - /url: /cart
+        - generic [ref=f19e382]:
+          - text: THE NEW COLLECTION
+          - heading "MORE THAN JUST FASHION." [level=2] [ref=f19e383]: MORE THANJUST FASHION.
+          - paragraph [ref=f19e384]: Street culture, art and everyday footwear.
+          - link "SHOP NOW" [ref=f19e385] [cursor=pointer]:
+            - /url: /shop
+          - generic [ref=f19e388]: 01 02 03
+        - generic [ref=f19e389]:
+          - generic [ref=f19e396]:
+            - strong [ref=f19e397]: Free shipping
+            - generic [ref=f19e398]: On orders over R999
+          - generic [ref=f19e402]:
+            - strong [ref=f19e403]: Curated pairs
+            - generic [ref=f19e404]: Find your next favourite
+        - generic [ref=f19e405]:
+          - generic [ref=f19e406]:
+            - generic [ref=f19e407]: FEATURED PRODUCTS
+            - link "View all →" [ref=f19e408] [cursor=pointer]:
+              - /url: /shop
+          - heading "Best Sellers" [level=3] [ref=f19e409]
+          - link "Air Max 90 Air Max 90 R2 199" [ref=f19e411] [cursor=pointer]:
+            - /url: /product/1
+            - img "Air Max 90" [ref=f19e412]
+            - strong [ref=f19e413]: Air Max 90
+            - generic [ref=f19e414]: R2 199
+        - link "Explore all sneakers" [ref=f19e415] [cursor=pointer]:
+          - /url: /shop
+  - contentinfo [ref=f19e419]:
+    - generic [ref=f19e420]:
+      - generic [ref=f19e421]:
+        - generic [ref=f19e422]:
+          - link "ARTRƎELAND" [ref=f19e423] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f19e424]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f19e425]:
+            - link "Instagram" [ref=f19e426] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f19e430] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f19e433]:
+          - heading "Explore" [level=4] [ref=f19e434]
+          - generic [ref=f19e435]:
+            - link "Shop All" [ref=f19e436] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f19e437] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f19e438] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f19e439] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f19e440]:
+          - heading "Customer Care" [level=4] [ref=f19e441]
+          - generic [ref=f19e442]:
+            - link "Contact Us" [ref=f19e443] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f19e444] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f19e445] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f19e446] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f19e447]:
+          - heading "Discover" [level=4] [ref=f19e448]
+          - generic [ref=f19e449]:
+            - link "About ARTRƎELAND" [ref=f19e450] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f19e451] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f19e452] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f19e453]:
+        - generic [ref=f19e454]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f19e455]: Designed for self-expression.

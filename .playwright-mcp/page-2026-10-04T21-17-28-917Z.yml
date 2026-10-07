@@ -1,0 +1,175 @@
+- generic [ref=f34e2]:
+  - generic [ref=f34e4]:
+    - generic [ref=f34e5]: Free shipping on orders over R999
+    - generic [ref=f34e12]:
+      - text: EN
+      - generic [ref=f34e13]: ·
+      - text: ZAR
+  - banner [ref=f34e169]:
+    - generic [ref=f34e170]:
+      - button "Toggle menu" [active] [ref=f34e705]
+      - link "ARTRƎELAND" [ref=f34e171] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f34e181]:
+        - button "Search products" [ref=f34e182]
+        - button "Wishlist" [ref=f34e190]
+        - button "Shopping cart" [ref=f34e193]
+  - generic [ref=f34e713]:
+    - generic [ref=f34e714]:
+      - link "ARTRƎELAND" [ref=f34e715] [cursor=pointer]:
+        - /url: /
+      - button "Close menu" [ref=f34e716]
+    - navigation [ref=f34e720]:
+      - link "Home" [ref=f34e721] [cursor=pointer]:
+        - /url: /
+      - link "Shop" [ref=f34e722] [cursor=pointer]:
+        - /url: /shop
+      - link "About" [ref=f34e723] [cursor=pointer]:
+        - /url: /about
+      - link "Contact" [ref=f34e724] [cursor=pointer]:
+        - /url: /contact
+      - link "Login" [ref=f34e725] [cursor=pointer]:
+        - /url: /login
+      - button "Categories" [ref=f34e726]
+    - paragraph [ref=f34e729]: STYLE WITHOUT LIMITS.
+  - main [ref=f34e42]:
+    - generic [ref=f34e197]:
+      - generic [ref=f34e198]:
+        - paragraph [ref=f34e199]: ARTRƎELAND COLLECTION
+        - heading "MEN" [level=1] [ref=f34e610]
+        - paragraph [ref=f34e201]: Shop ARTRƎELAND streetwear and selected footwear.
+      - generic [ref=f34e237]:
+        - generic [ref=f34e238]:
+          - searchbox "Search products" [ref=f34e243]
+          - button "Filters" [ref=f34e707]
+          - combobox "Sort products" [ref=f34e244]:
+            - option "Newest" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Highest Rated"
+            - option "A to Z"
+          - generic [ref=f34e245]:
+            - button "Grid view" [ref=f34e246]
+            - button "List view" [ref=f34e249]
+        - generic [ref=f34e251]: Showing 5 of 5 products
+        - generic [ref=f34e252]:
+          - article [ref=f34e611]:
+            - generic [ref=f34e612]:
+              - link [ref=f34e613] [cursor=pointer]:
+                - /url: /product/9
+                - img "Signature Hoodie" [ref=f34e614]
+              - generic [ref=f34e615]: NEW
+              - generic [ref=f34e616]:
+                - button "Add to wishlist" [ref=f34e617]
+                - button "Add to cart" [ref=f34e620]
+            - generic [ref=f34e624]:
+              - generic [ref=f34e625]: ARTRƎELAND · Men
+              - link [ref=f34e626] [cursor=pointer]:
+                - /url: /product/9
+                - heading "Signature Hoodie" [level=3] [ref=f34e627]
+              - generic [ref=f34e628]: R1299.00
+          - article [ref=f34e630]:
+            - generic [ref=f34e631]:
+              - link [ref=f34e632] [cursor=pointer]:
+                - /url: /product/10
+                - img "Art Expression Tee" [ref=f34e633]
+              - generic [ref=f34e634]: NEW
+              - generic [ref=f34e635]:
+                - button "Add to wishlist" [ref=f34e636]
+                - button "Add to cart" [ref=f34e639]
+            - generic [ref=f34e643]:
+              - generic [ref=f34e644]: ARTRƎELAND · Men
+              - link [ref=f34e645] [cursor=pointer]:
+                - /url: /product/10
+                - heading "Art Expression Tee" [level=3] [ref=f34e646]
+              - generic [ref=f34e647]: R799.00
+          - article [ref=f34e649]:
+            - generic [ref=f34e650]:
+              - link [ref=f34e651] [cursor=pointer]:
+                - /url: /product/15
+                - img "Blue Graphic Tee" [ref=f34e652]
+              - generic [ref=f34e653]: NEW
+              - generic [ref=f34e654]:
+                - button "Add to wishlist" [ref=f34e655]
+                - button "Add to cart" [ref=f34e658]
+            - generic [ref=f34e662]:
+              - generic [ref=f34e663]: ARTRƎELAND · Men
+              - link [ref=f34e664] [cursor=pointer]:
+                - /url: /product/15
+                - heading "Blue Graphic Tee" [level=3] [ref=f34e665]
+              - generic [ref=f34e666]: R899.00
+          - article [ref=f34e668]:
+            - generic [ref=f34e669]:
+              - link [ref=f34e670] [cursor=pointer]:
+                - /url: /product/20
+                - img "Take Chances Bomber Jacket" [ref=f34e671]
+              - generic [ref=f34e672]: NEW
+              - generic [ref=f34e673]:
+                - button "Add to wishlist" [ref=f34e674]
+                - button "Add to cart" [ref=f34e677]
+            - generic [ref=f34e681]:
+              - generic [ref=f34e682]: ARTRƎELAND · Men
+              - link [ref=f34e683] [cursor=pointer]:
+                - /url: /product/20
+                - heading "Take Chances Bomber Jacket" [level=3] [ref=f34e684]
+              - generic [ref=f34e685]: R2499.00
+          - article [ref=f34e687]:
+            - generic [ref=f34e688]:
+              - link [ref=f34e689] [cursor=pointer]:
+                - /url: /product/12
+                - img "Utility Cargo Pants" [ref=f34e690]
+              - generic [ref=f34e691]:
+                - button "Add to wishlist" [ref=f34e692]
+                - button "Add to cart" [ref=f34e695]
+            - generic [ref=f34e699]:
+              - generic [ref=f34e700]: ARTRƎELAND · Men
+              - link [ref=f34e701] [cursor=pointer]:
+                - /url: /product/12
+                - heading "Utility Cargo Pants" [level=3] [ref=f34e702]
+              - generic [ref=f34e703]: R1499.00
+  - contentinfo [ref=f34e129]:
+    - generic [ref=f34e130]:
+      - generic [ref=f34e131]:
+        - generic [ref=f34e132]:
+          - link "ARTRƎELAND" [ref=f34e133] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f34e134]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f34e135]:
+            - link "Instagram" [ref=f34e136] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f34e140] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f34e143]:
+          - heading "Explore" [level=4] [ref=f34e144]
+          - generic [ref=f34e145]:
+            - link "Shop All" [ref=f34e146] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f34e147] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f34e148] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f34e149] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f34e150]:
+          - heading "Customer Care" [level=4] [ref=f34e151]
+          - generic [ref=f34e152]:
+            - link "Contact Us" [ref=f34e153] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f34e154] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f34e155] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f34e156] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f34e157]:
+          - heading "Discover" [level=4] [ref=f34e158]
+          - generic [ref=f34e159]:
+            - link "About ARTRƎELAND" [ref=f34e160] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f34e161] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f34e162] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f34e163]:
+        - generic [ref=f34e164]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f34e165]: Designed for self-expression.

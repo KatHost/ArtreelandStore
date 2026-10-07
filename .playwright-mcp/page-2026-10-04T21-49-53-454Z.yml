@@ -1,0 +1,447 @@
+- generic [ref=f49e2]:
+  - generic [ref=f49e4]:
+    - generic [ref=f49e5]: Free shipping on orders over R999
+    - generic [ref=f49e11]: Wear the culture. Live the lifestyle.
+    - generic [ref=f49e12]:
+      - text: EN
+      - generic [ref=f49e13]: ·
+      - text: ZAR
+  - banner [ref=f49e14]:
+    - generic [ref=f49e15]:
+      - link "ARTRƎELAND" [ref=f49e16] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f49e17]:
+        - link "Home" [ref=f49e18] [cursor=pointer]:
+          - /url: /
+        - link "Shop" [ref=f49e19] [cursor=pointer]:
+          - /url: /shop
+        - link "About" [ref=f49e20] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f49e21] [cursor=pointer]:
+          - /url: /contact
+        - button "Categories" [ref=f49e23] [cursor=pointer]
+      - generic [ref=f49e26]:
+        - button "Search products" [ref=f49e27]
+        - button "Account" [ref=f49e31]
+        - button "Wishlist" [ref=f49e35]
+        - button "Shopping cart" [ref=f49e38]
+  - main [ref=f49e42]:
+    - generic [ref=f49e45]:
+      - generic [ref=f49e46]: THE NEW COLLECTION
+      - heading "MORE THAN JUST FASHION." [level=1] [ref=f49e47]: MORE THANJUST FASHION.
+      - paragraph [ref=f49e48]: ARTRƎELAND blends street culture, art and everyday footwear into pieces that move with you.
+      - generic [ref=f49e49]:
+        - link "SHOP NOW" [ref=f49e50] [cursor=pointer]:
+          - /url: /shop
+        - link "OUR STORY" [ref=f49e53] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f49e54]:
+        - generic [ref=f49e55]:
+          - generic [ref=f49e56]: "01"
+          - generic [ref=f49e57]: "02"
+          - generic [ref=f49e58]: "03"
+        - generic [ref=f49e59]: STEP INTO YOUR NEXT ROTATION
+    - region "Store highlights" [ref=f49e60]:
+      - generic [ref=f49e61]:
+        - generic [ref=f49e62]:
+          - generic [ref=f49e66]:
+            - strong [ref=f49e67]: Curated brands
+            - generic [ref=f49e68]: Pairs picked for your rotation
+          - generic [ref=f49e73]:
+            - strong [ref=f49e74]: Clear product details
+            - generic [ref=f49e75]: Sizes, condition and price upfront
+          - generic [ref=f49e80]:
+            - strong [ref=f49e81]: South African store
+            - generic [ref=f49e82]: Prices shown in rand
+          - generic [ref=f49e86]:
+            - strong [ref=f49e87]: Need a hand?
+            - generic [ref=f49e88]: Our contact page is one click away
+        - generic [aria-hidden] [ref=f49e89]:
+          - generic [ref=f49e93]:
+            - strong [ref=f49e94]: Curated brands
+            - generic [ref=f49e95]: Pairs picked for your rotation
+          - generic [ref=f49e100]:
+            - strong [ref=f49e101]: Clear product details
+            - generic [ref=f49e102]: Sizes, condition and price upfront
+          - generic [ref=f49e107]:
+            - strong [ref=f49e108]: South African store
+            - generic [ref=f49e109]: Prices shown in rand
+          - generic [ref=f49e113]:
+            - strong [ref=f49e114]: Need a hand?
+            - generic [ref=f49e115]: Our contact page is one click away
+    - generic [ref=f49e117]:
+      - generic [ref=f49e118]:
+        - generic [ref=f49e119]:
+          - paragraph [ref=f49e120]: ARTRƎELAND COLLECTION
+          - heading "BEST SELLERS" [level=2] [ref=f49e121]
+          - paragraph [ref=f49e122]: Streetwear essentials and statement pieces.
+        - link "View all sneakers →" [ref=f49e123] [cursor=pointer]:
+          - /url: /shop
+      - generic "Best sellers" [ref=f49e124]:
+        - generic [ref=f49e125]:
+          - generic [ref=f49e126]:
+            - article [ref=f49e128]:
+              - generic [ref=f49e129]:
+                - link [ref=f49e130] [cursor=pointer]:
+                  - /url: /product/9
+                  - img "Signature Hoodie" [ref=f49e131]
+                - generic [ref=f49e132]: NEW
+                - generic [ref=f49e133]:
+                  - button "Add to wishlist" [ref=f49e134]
+                  - button "Add to cart" [ref=f49e137]
+              - generic [ref=f49e141]:
+                - generic [ref=f49e142]: ARTRƎELAND · Men
+                - link [ref=f49e143] [cursor=pointer]:
+                  - /url: /product/9
+                  - heading "Signature Hoodie" [level=3] [ref=f49e144]
+                - generic [ref=f49e145]:
+                  - paragraph [ref=f49e146]:
+                    - generic [ref=f49e147]: Fit
+                    - text: Relaxed
+                  - paragraph [ref=f49e148]:
+                    - generic [ref=f49e149]: Sizes
+                    - text: S · M · L · XL · XXL
+                - generic [ref=f49e150]: R1299.00
+            - article [ref=f49e153]:
+              - generic [ref=f49e154]:
+                - link [ref=f49e155] [cursor=pointer]:
+                  - /url: /product/10
+                  - img "Art Expression Tee" [ref=f49e156]
+                - generic [ref=f49e157]: NEW
+                - generic [ref=f49e158]:
+                  - button "Add to wishlist" [ref=f49e159]
+                  - button "Add to cart" [ref=f49e162]
+              - generic [ref=f49e166]:
+                - generic [ref=f49e167]: ARTRƎELAND · Men
+                - link [ref=f49e168] [cursor=pointer]:
+                  - /url: /product/10
+                  - heading "Art Expression Tee" [level=3] [ref=f49e169]
+                - generic [ref=f49e170]:
+                  - paragraph [ref=f49e171]:
+                    - generic [ref=f49e172]: Fit
+                    - text: Oversized
+                  - paragraph [ref=f49e173]:
+                    - generic [ref=f49e174]: Sizes
+                    - text: S · M · L · XL · XXL
+                - generic [ref=f49e175]: R799.00
+            - article [ref=f49e178]:
+              - generic [ref=f49e179]:
+                - link [ref=f49e180] [cursor=pointer]:
+                  - /url: /product/11
+                  - img "Classic Logo Cap" [ref=f49e181]
+                - generic [ref=f49e182]:
+                  - button "Add to wishlist" [ref=f49e183]
+                  - button "Add to cart" [ref=f49e186]
+              - generic [ref=f49e190]:
+                - generic [ref=f49e191]: ARTRƎELAND · Accessories
+                - link [ref=f49e192] [cursor=pointer]:
+                  - /url: /product/11
+                  - heading "Classic Logo Cap" [level=3] [ref=f49e193]
+                - generic [ref=f49e194]:
+                  - paragraph [ref=f49e195]:
+                    - generic [ref=f49e196]: Fit
+                    - text: Adjustable
+                  - paragraph [ref=f49e197]:
+                    - generic [ref=f49e198]: Sizes
+                    - text: One Size
+                - generic [ref=f49e199]: R599.00
+            - article [ref=f49e202]:
+              - generic [ref=f49e203]:
+                - link [ref=f49e204] [cursor=pointer]:
+                  - /url: /product/12
+                  - img "Utility Cargo Pants" [ref=f49e205]
+                - generic [ref=f49e206]:
+                  - button "Add to wishlist" [ref=f49e207]
+                  - button "Add to cart" [ref=f49e210]
+              - generic [ref=f49e214]:
+                - generic [ref=f49e215]: ARTRƎELAND · Men
+                - link [ref=f49e216] [cursor=pointer]:
+                  - /url: /product/12
+                  - heading "Utility Cargo Pants" [level=3] [ref=f49e217]
+                - generic [ref=f49e218]:
+                  - paragraph [ref=f49e219]:
+                    - generic [ref=f49e220]: Fit
+                    - text: Relaxed
+                  - paragraph [ref=f49e221]:
+                    - generic [ref=f49e222]: Sizes
+                    - text: S · M · L · XL
+                - generic [ref=f49e223]: R1499.00
+          - generic [aria-hidden] [ref=f49e225]:
+            - article [ref=f49e227]:
+              - generic [ref=f49e228]:
+                - link [ref=f49e229] [cursor=pointer]:
+                  - /url: /product/9
+                - generic [ref=f49e231]: NEW
+                - generic [ref=f49e232]:
+                  - button [ref=f49e233]
+                  - button [ref=f49e236]
+              - generic [ref=f49e240]:
+                - generic [ref=f49e241]: ARTRƎELAND · Men
+                - link [ref=f49e242] [cursor=pointer]:
+                  - /url: /product/9
+                  - heading [level=3] [ref=f49e243]: Signature Hoodie
+                - generic [ref=f49e244]:
+                  - paragraph [ref=f49e245]:
+                    - generic [ref=f49e246]: Fit
+                    - text: Relaxed
+                  - paragraph [ref=f49e247]:
+                    - generic [ref=f49e248]: Sizes
+                    - text: S · M · L · XL · XXL
+                - generic [ref=f49e249]: R1299.00
+            - article [ref=f49e252]:
+              - generic [ref=f49e253]:
+                - link [ref=f49e254] [cursor=pointer]:
+                  - /url: /product/10
+                - generic [ref=f49e256]: NEW
+                - generic [ref=f49e257]:
+                  - button [ref=f49e258]
+                  - button [ref=f49e261]
+              - generic [ref=f49e265]:
+                - generic [ref=f49e266]: ARTRƎELAND · Men
+                - link [ref=f49e267] [cursor=pointer]:
+                  - /url: /product/10
+                  - heading [level=3] [ref=f49e268]: Art Expression Tee
+                - generic [ref=f49e269]:
+                  - paragraph [ref=f49e270]:
+                    - generic [ref=f49e271]: Fit
+                    - text: Oversized
+                  - paragraph [ref=f49e272]:
+                    - generic [ref=f49e273]: Sizes
+                    - text: S · M · L · XL · XXL
+                - generic [ref=f49e274]: R799.00
+            - article [ref=f49e277]:
+              - generic [ref=f49e278]:
+                - link [ref=f49e279] [cursor=pointer]:
+                  - /url: /product/11
+                - generic [ref=f49e281]:
+                  - button [ref=f49e282]
+                  - button [ref=f49e285]
+              - generic [ref=f49e289]:
+                - generic [ref=f49e290]: ARTRƎELAND · Accessories
+                - link [ref=f49e291] [cursor=pointer]:
+                  - /url: /product/11
+                  - heading [level=3] [ref=f49e292]: Classic Logo Cap
+                - generic [ref=f49e293]:
+                  - paragraph [ref=f49e294]:
+                    - generic [ref=f49e295]: Fit
+                    - text: Adjustable
+                  - paragraph [ref=f49e296]:
+                    - generic [ref=f49e297]: Sizes
+                    - text: One Size
+                - generic [ref=f49e298]: R599.00
+            - article [ref=f49e301]:
+              - generic [ref=f49e302]:
+                - link [ref=f49e303] [cursor=pointer]:
+                  - /url: /product/12
+                - generic [ref=f49e305]:
+                  - button [ref=f49e306]
+                  - button [ref=f49e309]
+              - generic [ref=f49e313]:
+                - generic [ref=f49e314]: ARTRƎELAND · Men
+                - link [ref=f49e315] [cursor=pointer]:
+                  - /url: /product/12
+                  - heading [level=3] [ref=f49e316]: Utility Cargo Pants
+                - generic [ref=f49e317]:
+                  - paragraph [ref=f49e318]:
+                    - generic [ref=f49e319]: Fit
+                    - text: Relaxed
+                  - paragraph [ref=f49e320]:
+                    - generic [ref=f49e321]: Sizes
+                    - text: S · M · L · XL
+                - generic [ref=f49e322]: R1499.00
+    - generic [ref=f49e325]:
+      - generic [ref=f49e326]:
+        - generic [ref=f49e327]:
+          - paragraph [ref=f49e328]: EXPLORE THE COLLECTION
+          - heading "SHOP BY CATEGORY" [level=2] [ref=f49e329]
+          - paragraph [ref=f49e330]: Find your style. Build your identity.
+        - link "View all collections →" [ref=f49e331] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f49e332]:
+        - link "MEN Streetwear essentials MEN ↗" [ref=f49e333] [cursor=pointer]:
+          - /url: /shop?category=Men
+          - img "MEN" [ref=f49e334]
+          - generic [ref=f49e335]:
+            - generic [ref=f49e336]: Streetwear essentials
+            - heading "MEN" [level=3] [ref=f49e337]
+            - generic [ref=f49e338]: ↗
+        - link "WOMEN Made to stand out WOMEN ↗" [ref=f49e339] [cursor=pointer]:
+          - /url: /shop?category=Women
+          - img "WOMEN" [ref=f49e340]
+          - generic [ref=f49e341]:
+            - generic [ref=f49e342]: Made to stand out
+            - heading "WOMEN" [level=3] [ref=f49e343]
+            - generic [ref=f49e344]: ↗
+        - link "FOOTWEAR Find your next pair FOOTWEAR ↗" [ref=f49e345] [cursor=pointer]:
+          - /url: /shop?category=Shoes
+          - img "FOOTWEAR" [ref=f49e346]
+          - generic [ref=f49e347]:
+            - generic [ref=f49e348]: Find your next pair
+            - heading "FOOTWEAR" [level=3] [ref=f49e349]
+            - generic [ref=f49e350]: ↗
+        - link "ACCESSORIES The finishing touch ACCESSORIES ↗" [ref=f49e351] [cursor=pointer]:
+          - /url: /shop?category=Accessories
+          - img "ACCESSORIES" [ref=f49e352]
+          - generic [ref=f49e353]:
+            - generic [ref=f49e354]: The finishing touch
+            - heading "ACCESSORIES" [level=3] [ref=f49e355]
+            - generic [ref=f49e356]: ↗
+    - generic [ref=f49e358]:
+      - paragraph [ref=f49e359]: MAKE EVERY STEP COUNT
+      - heading "YOUR NEXT EVERYDAY PAIR." [level=2] [ref=f49e360]: YOUR NEXTEVERYDAY PAIR.
+      - paragraph [ref=f49e361]: Find the pair you’ll keep reaching for.
+      - link "EXPLORE THE ROTATION" [ref=f49e362] [cursor=pointer]:
+        - /url: /shop
+    - generic [ref=f49e366]:
+      - generic [ref=f49e367]:
+        - generic [ref=f49e368]:
+          - paragraph [ref=f49e369]: FRESH TO THE ROTATION
+          - heading "JUST DROPPED" [level=2] [ref=f49e370]
+          - paragraph [ref=f49e371]: New pieces from the latest ARTRƎELAND collection.
+        - link "Shop all →" [ref=f49e372] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f49e373]:
+        - article [ref=f49e375]:
+          - generic [ref=f49e376]:
+            - link [ref=f49e377] [cursor=pointer]:
+              - /url: /product/21
+              - img "Roots Run Deep Bottle" [ref=f49e378]
+            - generic [ref=f49e379]: NEW
+            - generic [ref=f49e380]:
+              - button "Add to wishlist" [ref=f49e381]
+              - button "Add to cart" [ref=f49e384]
+          - generic [ref=f49e388]:
+            - generic [ref=f49e389]: ARTRƎELAND · Accessories
+            - link [ref=f49e390] [cursor=pointer]:
+              - /url: /product/21
+              - heading "Roots Run Deep Bottle" [level=3] [ref=f49e391]
+            - generic [ref=f49e392]:
+              - paragraph [ref=f49e393]:
+                - generic [ref=f49e394]: Fit
+                - text: One size
+              - paragraph [ref=f49e395]:
+                - generic [ref=f49e396]: Sizes
+                - text: One Size
+            - generic [ref=f49e397]: R599.00
+        - article [ref=f49e400]:
+          - generic [ref=f49e401]:
+            - link [ref=f49e402] [cursor=pointer]:
+              - /url: /product/20
+              - img "Take Chances Bomber Jacket" [ref=f49e403]
+            - generic [ref=f49e404]: NEW
+            - generic [ref=f49e405]:
+              - button "Add to wishlist" [ref=f49e406]
+              - button "Add to cart" [ref=f49e409]
+          - generic [ref=f49e413]:
+            - generic [ref=f49e414]: ARTRƎELAND · Men
+            - link [ref=f49e415] [cursor=pointer]:
+              - /url: /product/20
+              - heading "Take Chances Bomber Jacket" [level=3] [ref=f49e416]
+            - generic [ref=f49e417]:
+              - paragraph [ref=f49e418]:
+                - generic [ref=f49e419]: Fit
+                - text: Regular
+              - paragraph [ref=f49e420]:
+                - generic [ref=f49e421]: Sizes
+                - text: S · M · L · XL · XXL
+            - generic [ref=f49e422]: R2499.00
+        - article [ref=f49e425]:
+          - generic [ref=f49e426]:
+            - link [ref=f49e427] [cursor=pointer]:
+              - /url: /product/19
+              - img "See the Good Mug" [ref=f49e428]
+            - generic [ref=f49e429]: NEW
+            - generic [ref=f49e430]:
+              - button "Add to wishlist" [ref=f49e431]
+              - button "Add to cart" [ref=f49e434]
+          - generic [ref=f49e438]:
+            - generic [ref=f49e439]: ARTRƎELAND · Accessories
+            - link [ref=f49e440] [cursor=pointer]:
+              - /url: /product/19
+              - heading "See the Good Mug" [level=3] [ref=f49e441]
+            - generic [ref=f49e442]:
+              - paragraph [ref=f49e443]:
+                - generic [ref=f49e444]: Fit
+                - text: One size
+              - paragraph [ref=f49e445]:
+                - generic [ref=f49e446]: Sizes
+                - text: One Size
+            - generic [ref=f49e447]: R349.00
+        - article [ref=f49e450]:
+          - generic [ref=f49e451]:
+            - link [ref=f49e452] [cursor=pointer]:
+              - /url: /product/18
+              - img "F.L.Y. Statement Cap" [ref=f49e453]
+            - generic [ref=f49e454]: NEW
+            - generic [ref=f49e455]:
+              - button "Add to wishlist" [ref=f49e456]
+              - button "Add to cart" [ref=f49e459]
+          - generic [ref=f49e463]:
+            - generic [ref=f49e464]: ARTRƎELAND · Accessories
+            - link [ref=f49e465] [cursor=pointer]:
+              - /url: /product/18
+              - heading "F.L.Y. Statement Cap" [level=3] [ref=f49e466]
+            - generic [ref=f49e467]:
+              - paragraph [ref=f49e468]:
+                - generic [ref=f49e469]: Fit
+                - text: Adjustable
+              - paragraph [ref=f49e470]:
+                - generic [ref=f49e471]: Sizes
+                - text: One Size
+            - generic [ref=f49e472]: R699.00
+    - generic [ref=f49e475]:
+      - paragraph [ref=f49e476]: STAY CONNECTED
+      - heading "BE THE FIRST TO KNOW." [level=2] [ref=f49e477]: BE THE FIRSTTO KNOW.
+      - paragraph [ref=f49e478]: Get updates about new collections, exclusive releases and special offers.
+      - generic [ref=f49e479]:
+        - textbox "Email address" [ref=f49e480]:
+          - /placeholder: Enter your email address
+        - button "Subscribe" [ref=f49e481]
+  - link "Chat with ARTRƎELAND on WhatsApp" [ref=f49e484] [cursor=pointer]:
+    - /url: https://wa.me/27791043081?text=Hi%20ARTR%C6%8EELAND%2C%20I%20have%20a%20question.
+  - contentinfo [ref=f49e487]:
+    - generic [ref=f49e488]:
+      - generic [ref=f49e489]:
+        - generic [ref=f49e490]:
+          - link "ARTRƎELAND" [ref=f49e491] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f49e492]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f49e493]:
+            - link "Instagram" [ref=f49e494] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f49e498] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f49e501]:
+          - heading "Explore" [level=4] [ref=f49e502]
+          - generic [ref=f49e503]:
+            - link "Shop All" [ref=f49e504] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f49e505] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f49e506] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f49e507] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f49e508]:
+          - heading "Customer Care" [level=4] [ref=f49e509]
+          - generic [ref=f49e510]:
+            - link "Contact Us" [ref=f49e511] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f49e512] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f49e513] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f49e514] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f49e515]:
+          - heading "Discover" [level=4] [ref=f49e516]
+          - generic [ref=f49e517]:
+            - link "About ARTRƎELAND" [ref=f49e518] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f49e519] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f49e520] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f49e521]:
+        - generic [ref=f49e522]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f49e523]: Designed for self-expression.

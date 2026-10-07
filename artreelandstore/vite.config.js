@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
-import plugin from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/',
-    plugins: [plugin()],
+    base: '/artreeland/',
+    plugins: [react()],
     server: {
         port: 61244,
         proxy: {
@@ -13,5 +13,5 @@ export default defineConfig({
                 changeOrigin: true,
             },
         },
-    }
-})
+    },
+});

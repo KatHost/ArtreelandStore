@@ -1,0 +1,201 @@
+- generic [ref=f55e2]:
+  - generic [ref=f55e4]:
+    - generic [ref=f55e5]: Free shipping on orders over R999
+    - generic [ref=f55e6]:
+      - text: EN
+      - generic [ref=f55e7]: ·
+      - text: ZAR
+  - banner [ref=f55e8]:
+    - generic [ref=f55e9]:
+      - button "Toggle menu" [ref=f55e10]
+      - link "ARTRƎELAND" [ref=f55e12] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f55e13]:
+        - button "Search products" [ref=f55e14]
+        - button "Wishlist" [ref=f55e18]
+        - button "Shopping cart" [ref=f55e21]
+  - main [ref=f55e25]:
+    - generic [ref=f55e26]:
+      - navigation [ref=f55e27]:
+        - link "Home" [ref=f55e28] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f55e29]: /
+        - link "Shop" [ref=f55e30] [cursor=pointer]:
+          - /url: /shop
+        - generic [ref=f55e31]: /
+        - generic [ref=f55e32]: See the Good Mug
+      - generic [ref=f55e33]:
+        - generic [ref=f55e34]:
+          - img "See the Good Mug" [ref=f55e36]
+          - button "View image 1" [ref=f55e38]:
+            - img "See the Good Mug 1" [ref=f55e39]
+        - generic [ref=f55e40]:
+          - paragraph [ref=f55e41]: ARTRƎELAND · Accessories
+          - heading "See the Good Mug" [level=1] [ref=f55e42]
+          - generic [ref=f55e43]: R349.00
+          - paragraph [ref=f55e44]: A cream ceramic mug with a bright reminder to see the good in all things.
+          - generic [ref=f55e45]:
+            - heading "Select Size" [level=4] [ref=f55e46]
+            - button "One Size" [ref=f55e48]
+          - paragraph [ref=f55e49]: 10 items available
+          - generic [ref=f55e50]:
+            - button "ADD TO CART" [ref=f55e51]
+            - button "Toggle wishlist" [ref=f55e55]
+          - generic [ref=f55e58]:
+            - heading "Product Details" [level=4] [ref=f55e59]
+            - generic [ref=f55e60]:
+              - generic [ref=f55e61]: Material
+              - strong [ref=f55e62]: Ceramic
+            - generic [ref=f55e63]:
+              - generic [ref=f55e64]: Fit
+              - strong [ref=f55e65]: One size
+            - generic [ref=f55e66]:
+              - generic [ref=f55e67]: Origin
+              - strong [ref=f55e68]: ARTRƎELAND
+      - generic [ref=f55e69]:
+        - generic [ref=f55e70]:
+          - button "Description" [ref=f55e71]
+          - button "Specifications" [ref=f55e72]
+          - button "Reviews" [ref=f55e73]
+        - paragraph [ref=f55e75]: A cream ceramic mug with a bright reminder to see the good in all things.
+    - generic [ref=f55e77]:
+      - generic [ref=f55e78]:
+        - heading "YOU MAY ALSO LIKE" [level=2] [ref=f55e79]
+        - link "View all →" [ref=f55e80] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f55e81]:
+        - article [ref=f55e83]:
+          - generic [ref=f55e84]:
+            - link [ref=f55e85] [cursor=pointer]:
+              - /url: /product/11
+              - img "Classic Logo Cap" [ref=f55e86]
+            - generic [ref=f55e87]:
+              - button "Add to wishlist" [ref=f55e88]
+              - button "Add to cart" [ref=f55e91]
+          - generic [ref=f55e95]:
+            - generic [ref=f55e96]: ARTRƎELAND · Accessories
+            - link [ref=f55e97] [cursor=pointer]:
+              - /url: /product/11
+              - heading "Classic Logo Cap" [level=3] [ref=f55e98]
+            - generic [ref=f55e99]:
+              - paragraph [ref=f55e100]:
+                - generic [ref=f55e101]: Fit
+                - text: Adjustable
+              - paragraph [ref=f55e102]:
+                - generic [ref=f55e103]: Sizes
+                - text: One Size
+            - generic [ref=f55e104]: R599.00
+        - article [ref=f55e107]:
+          - generic [ref=f55e108]:
+            - link [ref=f55e109] [cursor=pointer]:
+              - /url: /product/16
+              - img "Everyday Cap" [ref=f55e110]
+            - generic [ref=f55e111]: NEW
+            - generic [ref=f55e112]:
+              - button "Add to wishlist" [ref=f55e113]
+              - button "Add to cart" [ref=f55e116]
+          - generic [ref=f55e120]:
+            - generic [ref=f55e121]: ARTRƎELAND · Accessories
+            - link [ref=f55e122] [cursor=pointer]:
+              - /url: /product/16
+              - heading "Everyday Cap" [level=3] [ref=f55e123]
+            - generic [ref=f55e124]:
+              - paragraph [ref=f55e125]:
+                - generic [ref=f55e126]: Fit
+                - text: Adjustable
+              - paragraph [ref=f55e127]:
+                - generic [ref=f55e128]: Sizes
+                - text: One Size
+            - generic [ref=f55e129]: R599.00
+        - article [ref=f55e132]:
+          - generic [ref=f55e133]:
+            - link [ref=f55e134] [cursor=pointer]:
+              - /url: /product/17
+              - img "Crossbody Utility Bag" [ref=f55e135]
+            - generic [ref=f55e136]: NEW
+            - generic [ref=f55e137]:
+              - button "Add to wishlist" [ref=f55e138]
+              - button "Add to cart" [ref=f55e141]
+          - generic [ref=f55e145]:
+            - generic [ref=f55e146]: ARTRƎELAND · Accessories
+            - link [ref=f55e147] [cursor=pointer]:
+              - /url: /product/17
+              - heading "Crossbody Utility Bag" [level=3] [ref=f55e148]
+            - generic [ref=f55e149]:
+              - paragraph [ref=f55e150]:
+                - generic [ref=f55e151]: Fit
+                - text: Adjustable strap
+              - paragraph [ref=f55e152]:
+                - generic [ref=f55e153]: Sizes
+                - text: One Size
+            - generic [ref=f55e154]: R899.00
+        - article [ref=f55e157]:
+          - generic [ref=f55e158]:
+            - link [ref=f55e159] [cursor=pointer]:
+              - /url: /product/18
+              - img "F.L.Y. Statement Cap" [ref=f55e160]
+            - generic [ref=f55e161]: NEW
+            - generic [ref=f55e162]:
+              - button "Add to wishlist" [ref=f55e163]
+              - button "Add to cart" [ref=f55e166]
+          - generic [ref=f55e170]:
+            - generic [ref=f55e171]: ARTRƎELAND · Accessories
+            - link [ref=f55e172] [cursor=pointer]:
+              - /url: /product/18
+              - heading "F.L.Y. Statement Cap" [level=3] [ref=f55e173]
+            - generic [ref=f55e174]:
+              - paragraph [ref=f55e175]:
+                - generic [ref=f55e176]: Fit
+                - text: Adjustable
+              - paragraph [ref=f55e177]:
+                - generic [ref=f55e178]: Sizes
+                - text: One Size
+            - generic [ref=f55e179]: R699.00
+  - link "Chat with ARTRƎELAND on WhatsApp" [ref=f55e181] [cursor=pointer]:
+    - /url: https://wa.me/27791043081?text=Hi%20ARTR%C6%8EELAND%2C%20I%20have%20a%20question.
+  - contentinfo [ref=f55e184]:
+    - generic [ref=f55e185]:
+      - generic [ref=f55e186]:
+        - generic [ref=f55e187]:
+          - link "ARTRƎELAND" [ref=f55e188] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f55e189]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f55e190]:
+            - link "Instagram" [ref=f55e191] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f55e195] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f55e198]:
+          - heading "Explore" [level=4] [ref=f55e199]
+          - generic [ref=f55e200]:
+            - link "Shop All" [ref=f55e201] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f55e202] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f55e203] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f55e204] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f55e205]:
+          - heading "Customer Care" [level=4] [ref=f55e206]
+          - generic [ref=f55e207]:
+            - link "Contact Us" [ref=f55e208] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f55e209] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f55e210] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f55e211] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f55e212]:
+          - heading "Discover" [level=4] [ref=f55e213]
+          - generic [ref=f55e214]:
+            - link "About ARTRƎELAND" [ref=f55e215] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f55e216] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f55e217] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f55e218]:
+        - generic [ref=f55e219]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f55e220]: Designed for self-expression.

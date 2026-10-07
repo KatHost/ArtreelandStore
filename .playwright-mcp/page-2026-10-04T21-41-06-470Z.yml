@@ -1,0 +1,84 @@
+- generic [ref=f47e2]:
+  - generic [ref=f47e4]:
+    - generic [ref=f47e5]: Free shipping on orders over R999
+    - generic [ref=f47e11]:
+      - text: EN
+      - generic [ref=f47e12]: ·
+      - text: ZAR
+  - banner [ref=f47e13]:
+    - generic [ref=f47e14]:
+      - button "Toggle menu" [ref=f47e15]
+      - link "ARTRƎELAND" [ref=f47e17] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f47e18]:
+        - button "Search products" [ref=f47e19]
+        - button "Wishlist" [ref=f47e23]
+        - button "Shopping cart" [ref=f47e26]
+  - main [ref=f47e30]:
+    - generic [ref=f47e31]:
+      - generic [ref=f47e32]:
+        - paragraph [ref=f47e33]: ARTRƎELAND COLLECTION
+        - heading "ACCESSORIES" [level=1] [ref=f47e34]
+        - paragraph [ref=f47e35]: Shop ARTRƎELAND streetwear and selected footwear.
+      - generic [ref=f47e37]:
+        - generic [ref=f47e38]:
+          - searchbox "Search products" [ref=f47e43]
+          - button "Filters" [ref=f47e44]
+          - combobox "Sort products" [ref=f47e46]:
+            - option "Newest" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Highest Rated"
+            - option "A to Z"
+          - generic [ref=f47e47]:
+            - button "Grid view" [ref=f47e48]
+            - button "List view" [ref=f47e51]
+        - generic [ref=f47e53]: Showing ... of 6 products
+  - link "Chat with ARTRƎELAND on WhatsApp" [ref=f47e85] [cursor=pointer]:
+    - /url: https://wa.me/27791043081?text=Hi%20ARTR%C6%8EELAND%2C%20I%20have%20a%20question.
+  - contentinfo [ref=f47e88]:
+    - generic [ref=f47e89]:
+      - generic [ref=f47e90]:
+        - generic [ref=f47e91]:
+          - link "ARTRƎELAND" [ref=f47e92] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f47e93]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f47e94]:
+            - link "Instagram" [ref=f47e95] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f47e99] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f47e102]:
+          - heading "Explore" [level=4] [ref=f47e103]
+          - generic [ref=f47e104]:
+            - link "Shop All" [ref=f47e105] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f47e106] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f47e107] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f47e108] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f47e109]:
+          - heading "Customer Care" [level=4] [ref=f47e110]
+          - generic [ref=f47e111]:
+            - link "Contact Us" [ref=f47e112] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f47e113] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f47e114] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f47e115] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f47e116]:
+          - heading "Discover" [level=4] [ref=f47e117]
+          - generic [ref=f47e118]:
+            - link "About ARTRƎELAND" [ref=f47e119] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f47e120] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f47e121] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f47e122]:
+        - generic [ref=f47e123]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f47e124]: Designed for self-expression.

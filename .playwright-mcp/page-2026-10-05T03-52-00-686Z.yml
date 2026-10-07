@@ -1,0 +1,250 @@
+- generic [ref=f78e1]:
+  - generic [ref=f78e11]:
+    - banner [ref=f78e12]:
+      - generic [ref=f78e13]:
+        - link [ref=f78e15] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=f78e17]:
+          - button "Products keyboard_arrow_down Websites AI Website Builder Website & Blog Builder Online Store Builder Smart Scheduler Builder Domains Register a domain Transfer a domain Domain Prices WHOIS Lookup Email Professional Email and Workspace Hosting Web Hosting LiteSpeed Hosting WordPress Hosting Servers Linux Dedicated Server Windows Dedicated Server Linux VPS Hosting Linux VDS Servers Windows Cloud Servers Windows VDS Servers Managed VPS Hosting GPU Servers Reseller VPS Reseller Web Hosting Reseller LiteSpeed Hosting Reseller Domain Resellers IT Partner Programme African Domains for Resellers App Hosting Self Hosted n8n Supabase" [expanded] [active] [ref=f78e192] [cursor=pointer]:
+            - generic [ref=f78e19]:
+              - text: Products
+              - generic [ref=f78e20]: keyboard_arrow_down
+            - generic [ref=f78e198]:
+              - generic [ref=f78e199]:
+                - generic [ref=f78e200]: Websites
+                - generic [ref=f78e201]:
+                  - link "AI Website Builder" [ref=f78e202]:
+                    - /url: https://hostafrica.co.za/website-builder/easy-ai-builder/
+                  - link "Website & Blog Builder" [ref=f78e203]:
+                    - /url: https://hostafrica.co.za/website-builder/
+                  - link "Online Store Builder" [ref=f78e204]:
+                    - /url: https://hostafrica.co.za/online-store/
+                  - link "Smart Scheduler Builder" [ref=f78e205]:
+                    - /url: https://hostafrica.co.za/bookings/
+              - generic [ref=f78e206]:
+                - generic [ref=f78e207]: Domains
+                - generic [ref=f78e208]:
+                  - link "Register a domain" [ref=f78e209]:
+                    - /url: https://hostafrica.co.za/domains/
+                  - link "Transfer a domain" [ref=f78e210]:
+                    - /url: https://hostafrica.co.za/transfer-domain/
+                  - link "Domain Prices" [ref=f78e211]:
+                    - /url: https://hostafrica.co.za/domains/domain-prices/
+                  - link "WHOIS Lookup" [ref=f78e212]:
+                    - /url: https://hostafrica.co.za/whois-lookup/
+              - generic [ref=f78e213]:
+                - generic [ref=f78e214]: Email
+                - link "Professional Email and Workspace" [ref=f78e216]:
+                  - /url: https://hostafrica.co.za/email-hosting/
+              - generic [ref=f78e217]:
+                - generic [ref=f78e218]: Hosting
+                - generic [ref=f78e219]:
+                  - link "Web Hosting" [ref=f78e220]:
+                    - /url: https://hostafrica.co.za/web-hosting/
+                  - link "LiteSpeed Hosting" [ref=f78e221]:
+                    - /url: https://hostafrica.co.za/litespeed-hosting/
+                  - link "WordPress Hosting" [ref=f78e222]:
+                    - /url: https://hostafrica.co.za/wordpress-hosting/
+              - generic [ref=f78e223]:
+                - generic [ref=f78e224]: Servers
+                - generic [ref=f78e225]:
+                  - link "Linux Dedicated Server" [ref=f78e226]:
+                    - /url: https://hostafrica.co.za/servers/dedicated-servers/
+                  - link "Windows Dedicated Server" [ref=f78e227]:
+                    - /url: https://hostafrica.co.za/servers/metal-core-windows/
+                  - link "Linux VPS Hosting" [ref=f78e228]:
+                    - /url: https://hostafrica.co.za/servers/virtual-server/
+                  - link "Linux VDS Servers" [ref=f78e229]:
+                    - /url: https://hostafrica.co.za/servers/linux-vds-servers/
+                  - link "Windows Cloud Servers" [ref=f78e230]:
+                    - /url: https://hostafrica.co.za/servers/windows-cloud-servers/
+                  - link "Windows VDS Servers" [ref=f78e231]:
+                    - /url: https://hostafrica.co.za/servers/windows-vds-servers/
+                  - link "Managed VPS Hosting" [ref=f78e232]:
+                    - /url: https://hostafrica.co.za/servers/managed-vps-hosting/
+                  - link "GPU Servers" [ref=f78e233]:
+                    - /url: https://hostafrica.co.za/servers/gpu-servers/
+              - generic [ref=f78e234]:
+                - generic [ref=f78e235]: Reseller
+                - generic [ref=f78e236]:
+                  - link "VPS Reseller" [ref=f78e237]:
+                    - /url: https://hostafrica.co.za/reseller-program/vps-reseller/
+                  - link "Web Hosting Reseller" [ref=f78e238]:
+                    - /url: https://hostafrica.co.za/reseller-program/webhosting-reseller/
+                  - link "LiteSpeed Hosting Reseller" [ref=f78e239]:
+                    - /url: https://hostafrica.co.za/reseller-program/litespeed-hosting-reseller/
+                  - link "Domain Resellers" [ref=f78e240]:
+                    - /url: https://hostafrica.co.za/reseller-program/domain-reseller/
+                  - link "IT Partner Programme" [ref=f78e241]:
+                    - /url: https://hostafrica.co.za/reseller-program/it-partner-programme/
+                  - link "African Domains for Resellers" [ref=f78e242]:
+                    - /url: https://hostafrica.co.za/reseller-program/african-domains-resellers/
+              - generic [ref=f78e243]:
+                - generic [ref=f78e244]: App Hosting
+                - generic [ref=f78e245]:
+                  - link "Self Hosted n8n" [ref=f78e246]:
+                    - /url: https://hostafrica.co.za/self-hosted-n8n/
+                  - link "Supabase" [ref=f78e247]:
+                    - /url: https://hostafrica.co.za/supabase-vps/
+          - button "Resources keyboard_arrow_down" [ref=f78e21] [cursor=pointer]:
+            - generic [ref=f78e22]:
+              - text: Resources
+              - generic [ref=f78e23]: keyboard_arrow_down
+        - generic [ref=f78e26]:
+          - button [ref=f78e27] [cursor=pointer]
+          - button "Artreeland Rapholo more_vert" [ref=f78e33] [cursor=pointer]:
+            - generic [ref=f78e34]:
+              - generic [ref=f78e35]: Artreeland Rapholo
+              - generic [ref=f78e38]: more_vert
+          - button "HBuddy chat" [ref=f78e40] [cursor=pointer]
+    - navigation [ref=f78e50]:
+      - generic [ref=f78e52]:
+        - 'button "search Open search Keyboard shortcut: Ctrl plus K" [ref=f78e56]':
+          - generic [ref=f78e57]: search
+          - button "Open search" [ref=f78e60] [cursor=pointer]
+          - 'img "Keyboard shortcut: Ctrl plus K" [ref=f78e62]':
+            - generic [ref=f78e63]:
+              - generic [aria-hidden] [ref=f78e64]: Ctrl
+              - generic [aria-hidden] [ref=f78e65]: +
+              - generic [aria-hidden] [ref=f78e66]: K
+        - list [ref=f78e67]:
+          - link "space_dashboard Dashboard" [ref=f78e68] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=f78e69]: space_dashboard
+            - generic [ref=f78e71]: Dashboard
+          - generic [ref=f78e74]: AI
+          - link "auto_awesome Website Builder AI" [ref=f78e76] [cursor=pointer]:
+            - /url: /ai
+            - generic [ref=f78e77]: auto_awesome
+            - generic [ref=f78e80]:
+              - generic [ref=f78e81]: Website Builder
+              - generic [ref=f78e82]: AI
+          - generic [ref=f78e84]: Domains
+          - link "language Domains 1" [ref=f78e86] [cursor=pointer]:
+            - /url: /domains
+            - generic [ref=f78e87]: language
+            - generic [ref=f78e89]: Domains
+            - generic [ref=f78e92]: "1"
+          - generic [ref=f78e95]:
+            - option "dns Badge DNS Management keyboard_arrow_up" [selected] [ref=f78e96] [cursor=pointer]:
+              - generic [ref=f78e99]:
+                - generic [ref=f78e100]: dns
+                - status "Badge" [ref=f78e101]
+              - generic [ref=f78e102]: DNS Management
+              - generic [ref=f78e105]: keyboard_arrow_up
+            - group "dns Badge DNS Management keyboard_arrow_up" [ref=f78e107]:
+              - link "language Domains DNS" [ref=f78e108] [cursor=pointer]:
+                - /url: /domains/dns
+                - generic [ref=f78e109]: language
+                - generic [ref=f78e111]: Domains DNS
+              - link "dns Reverse DNS" [ref=f78e114] [cursor=pointer]:
+                - /url: /rdns
+                - generic [ref=f78e115]: dns
+                - generic [ref=f78e117]: Reverse DNS
+              - link "link Domain Redirects" [ref=f78e120] [cursor=pointer]:
+                - /url: /domains/redirects
+                - generic [ref=f78e121]: link
+                - generic [ref=f78e123]: Domain Redirects
+          - generic [ref=f78e126]: Billing & Support
+          - option "credit_card Badge Billing keyboard_arrow_right" [ref=f78e129] [cursor=pointer]:
+            - generic [ref=f78e132]:
+              - generic [ref=f78e133]: credit_card
+              - status "Badge" [ref=f78e134]
+            - generic [ref=f78e135]: Billing
+            - generic [ref=f78e138]: keyboard_arrow_right
+          - option "confirmation_number Badge Support keyboard_arrow_right" [ref=f78e141] [cursor=pointer]:
+            - generic [ref=f78e144]:
+              - generic [ref=f78e145]: confirmation_number
+              - status "Badge" [ref=f78e146]
+            - generic [ref=f78e147]: Support
+            - generic [ref=f78e150]: keyboard_arrow_right
+          - generic [ref=f78e152]: Partner tools
+          - link "graph_1 Affiliates" [ref=f78e154] [cursor=pointer]:
+            - /url: /affiliates/dashboard
+            - generic [ref=f78e155]: graph_1
+            - generic [ref=f78e157]: Affiliates
+          - link "sell Domain Reseller" [ref=f78e160] [cursor=pointer]:
+            - /url: /resellers
+            - generic [ref=f78e161]: sell
+            - generic [ref=f78e163]: Domain Reseller
+          - link "settings_ethernet API" [ref=f78e166] [cursor=pointer]:
+            - /url: /public-api
+            - generic [ref=f78e167]: settings_ethernet
+            - generic [ref=f78e169]: API
+    - main [ref=f78e172]:
+      - generic [ref=f78e175]:
+        - generic [ref=f78e178]:
+          - button "chevron_left" [ref=f78e179] [cursor=pointer]
+          - generic [ref=f78e182]:
+            - generic [ref=f78e183]: Domain Redirect
+            - paragraph [ref=f78e248]: artreeland.co.za
+        - generic [ref=f78e252]:
+          - generic [ref=f78e253]:
+            - generic [ref=f78e254]:
+              - generic [ref=f78e255]:
+                - generic [ref=f78e256]: "1"
+                - generic [ref=f78e258]: Choose a template
+              - separator [ref=f78e259]
+            - generic [ref=f78e261]:
+              - generic [ref=f78e262] [cursor=pointer]: Facebook
+              - generic [ref=f78e268] [cursor=pointer]: Instagram
+              - generic [ref=f78e274] [cursor=pointer]: LinkedIn
+              - generic [ref=f78e282] [cursor=pointer]:
+                - generic [ref=f78e283]: captive_portal
+                - generic [ref=f78e284]: Reddit
+              - generic [ref=f78e285] [cursor=pointer]: TikTok
+              - generic [ref=f78e293] [cursor=pointer]:
+                - generic [ref=f78e294]: captive_portal
+                - generic [ref=f78e295]: Twitch
+              - generic [ref=f78e298] [cursor=pointer]:
+                - generic [ref=f78e299]: captive_portal
+                - generic [ref=f78e300]: X
+              - generic [ref=f78e301] [cursor=pointer]: YouTube
+              - generic [ref=f78e309] [cursor=pointer]:
+                - generic [ref=f78e310]: captive_portal
+                - generic [ref=f78e311]: Custom
+          - generic [ref=f78e312]:
+            - generic [ref=f78e313]:
+              - generic [ref=f78e314]:
+                - generic [ref=f78e315]: "2"
+                - generic [ref=f78e317]: Redirect to
+              - separator [ref=f78e318]
+            - generic [ref=f78e319]:
+              - generic [ref=f78e322]:
+                - generic [aria-hidden] [ref=f78e324]: 󰌹
+                - textbox "https://example.com" [ref=f78e326]
+              - paragraph [ref=f78e327]: Visitors will be forwarded to this URL when they reach your domain.
+          - generic [ref=f78e328]:
+            - generic [ref=f78e329]:
+              - generic [ref=f78e330]:
+                - generic [ref=f78e331]: "3"
+                - generic [ref=f78e333]: Redirect type
+              - separator [ref=f78e334]
+            - generic [ref=f78e337]:
+              - generic [ref=f78e339] [cursor=pointer]:
+                - generic [ref=f78e340]:
+                  - generic [ref=f78e341]:
+                    - generic [ref=f78e342]: Permanent
+                    - generic [ref=f78e343]: "301"
+                  - generic [ref=f78e345]: radio_button_checked
+                - paragraph [ref=f78e346]: Recommended if you restructured your site or have a new domain. This passes most SEO rankings to your new domain.
+              - generic [ref=f78e348] [cursor=pointer]:
+                - generic [ref=f78e349]:
+                  - generic [ref=f78e350]:
+                    - generic [ref=f78e351]: Temporary
+                    - generic [ref=f78e352]: "302"
+                  - generic [ref=f78e354]: radio_button_unchecked
+                - paragraph [ref=f78e355]: Recommended if you are testing or doing maintenance. The original domain will remain indexed.
+          - generic [ref=f78e356]:
+            - generic [ref=f78e358]:
+              - button "Save redirect" [disabled]
+              - button "Cancel" [ref=f78e359] [cursor=pointer]
+            - separator [ref=f78e362]
+            - generic [ref=f78e364]:
+              - generic [ref=f78e365]: info
+              - paragraph [ref=f78e367]: The redirect usually takes 1 hour to work. Sometimes, it can take up to 48 hours.
+      - dialog [aria-hidden]:
+        - separator
+  - iframe [ref=f78e191]:
+    - button "Chat widget" [ref=f80e5] [cursor=pointer]:
+      - img "Opens Chat This icon Opens the chat window." [ref=f80e8]

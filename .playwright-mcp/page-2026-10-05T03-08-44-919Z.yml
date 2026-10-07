@@ -1,0 +1,97 @@
+- generic [ref=f76e2]:
+  - generic [ref=f76e4]:
+    - generic [ref=f76e5]: Free shipping on orders of R1,500 or more
+    - generic [ref=f76e6]: Wear the culture. Live the lifestyle.
+    - generic [ref=f76e7]:
+      - text: EN
+      - generic [ref=f76e8]: ·
+      - text: ZAR
+  - banner [ref=f76e9]:
+    - generic [ref=f76e10]:
+      - link "ARTRƎELAND" [ref=f76e11] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f76e12]:
+        - link "Home" [ref=f76e13] [cursor=pointer]:
+          - /url: /
+        - link "Shop" [ref=f76e14] [cursor=pointer]:
+          - /url: /shop
+        - link "About" [ref=f76e15] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f76e16] [cursor=pointer]:
+          - /url: /contact
+        - button "Categories" [ref=f76e18] [cursor=pointer]
+      - generic [ref=f76e21]:
+        - button "Search products" [ref=f76e22]
+        - button "Account" [ref=f76e26]
+        - button "Wishlist" [ref=f76e30]
+        - button "Shopping cart" [ref=f76e33]
+  - main [ref=f76e37]:
+    - generic [ref=f76e38]:
+      - generic [ref=f76e39]:
+        - paragraph [ref=f76e40]: ARTRƎELAND COLLECTION
+        - heading "WOMEN" [level=1] [ref=f76e41]
+        - paragraph [ref=f76e42]: Shop ARTRƎELAND streetwear and selected footwear.
+      - region [ref=f76e43]:
+        - generic [ref=f76e44]:
+          - paragraph [ref=f76e45]: THE ARTRƎELAND WOMEN'S EDIT
+          - heading "MADE TO STAND OUT" [level=2] [ref=f76e46]
+          - paragraph [ref=f76e47]: A first look at our women’s streetwear collection. Product details and availability are coming soon.
+        - generic [ref=f76e48]:
+          - article [ref=f76e49]:
+            - img "ARTRƎELAND blue and black cropped track jacket with matching cargo pants" [ref=f76e50]
+            - generic [ref=f76e51]:
+              - paragraph [ref=f76e52]: BLUE ENERGY
+              - heading "Streetwear in motion" [level=3] [ref=f76e53]
+          - article [ref=f76e54]:
+            - img "ARTRƎELAND black cropped top and streetwear look" [ref=f76e55]
+            - generic [ref=f76e56]:
+              - paragraph [ref=f76e57]: NOIR ESSENTIALS
+              - heading "Own your everyday" [level=3] [ref=f76e58]
+  - link "Chat with ARTRƎELAND on WhatsApp" [ref=f76e59] [cursor=pointer]:
+    - /url: https://wa.me/27791043081?text=Hi%20ARTR%C6%8EELAND%2C%20I%20have%20a%20question.
+  - contentinfo [ref=f76e62]:
+    - generic [ref=f76e63]:
+      - generic [ref=f76e64]:
+        - generic [ref=f76e65]:
+          - link "ARTRƎELAND" [ref=f76e66] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f76e67]: A modern fashion and lifestyle destination. Express yourself through timeless essentials and contemporary streetwear.
+          - generic [ref=f76e68]:
+            - link "Instagram" [ref=f76e69] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f76e73] [cursor=pointer]:
+              - /url: https://facebook.com
+        - generic [ref=f76e76]:
+          - heading "Explore" [level=4] [ref=f76e77]
+          - generic [ref=f76e78]:
+            - link "Shop All" [ref=f76e79] [cursor=pointer]:
+              - /url: /shop
+            - link "New Arrivals" [ref=f76e80] [cursor=pointer]:
+              - /url: /shop
+            - link "Collections" [ref=f76e81] [cursor=pointer]:
+              - /url: /shop
+            - link "Our Story" [ref=f76e82] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=f76e83]:
+          - heading "Customer Care" [level=4] [ref=f76e84]
+          - generic [ref=f76e85]:
+            - link "Contact Us" [ref=f76e86] [cursor=pointer]:
+              - /url: /contact
+            - link "Shopping Cart" [ref=f76e87] [cursor=pointer]:
+              - /url: /cart
+            - link "Wishlist" [ref=f76e88] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Checkout" [ref=f76e89] [cursor=pointer]:
+              - /url: /checkout
+        - generic [ref=f76e90]:
+          - heading "Discover" [level=4] [ref=f76e91]
+          - generic [ref=f76e92]:
+            - link "About ARTRƎELAND" [ref=f76e93] [cursor=pointer]:
+              - /url: /about
+            - link "Create Account" [ref=f76e94] [cursor=pointer]:
+              - /url: /register
+            - link "Sign In" [ref=f76e95] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=f76e96]:
+        - generic [ref=f76e97]: © 2026 ARTRƎELAND. All rights reserved.
+        - generic [ref=f76e98]: Designed for self-expression.

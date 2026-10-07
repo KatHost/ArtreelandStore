@@ -2,10 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { useCart } from "../context/CartContext";
-import { beginPayFastCheckout } from "../services/payfast";
 
 export default function Checkout() {
-    const { cartItems, cartTotal } = useCart();
+    const { cartItems, cartTotal, clearCart } = useCart();
 
     const [step, setStep] = useState(1);
 
@@ -46,17 +45,17 @@ export default function Checkout() {
         setProcessing(true);
 
         try {
-            await beginPayFastCheckout({
-                items: cartItems.map((item) => ({
-                    id: item.id,
-                    quantity: item.quantity,
-                    selectedSize: item.selectedSize,
-                })),
-                shipping,
-                delivery,
+            await new Promise((resolve) => {
+                window.setTimeout(resolve, 800);
             });
+
+            clearCart();
+            setMessage(
+                "Order placed successfully. Payment is currently free while the storefront is in demo mode."
+            );
         } catch (error) {
             setMessage(error.message);
+        } finally {
             setProcessing(false);
         }
     };
@@ -354,10 +353,11 @@ export default function Checkout() {
 
                             <div className="payment-option">
                                 <div>
-                                    <strong>PayFast secure checkout</strong>
+                                    <strong>Free checkout for now</strong>
                                     <p>
-                                        You will be redirected to PayFast to complete your payment
-                                        securely. Your card details are never stored by ARTRƎELAND.
+                                        This storefront is currently running in demo mode, so
+                                        orders are placed without a payment gateway while the
+                                        live checkout is being finalized.
                                     </p>
                                 </div>
                             </div>
@@ -407,7 +407,7 @@ export default function Checkout() {
 
                             <h3>Payment</h3>
 
-                            <p>PAYFAST SECURE HOSTED PAYMENT</p>
+                            <p>FREE DEMO CHECKOUT</p>
                             <p>
                                 Delivery: {delivery === "express" ? "Express" : "Standard"}
                             </p>
@@ -448,7 +448,7 @@ export default function Checkout() {
                                     onClick={handleOrderSubmit}
                                     disabled={processing}
                                 >
-                                    {processing ? "REDIRECTING TO PAYFAST..." : "PAY SECURELY WITH PAYFAST"}
+                                    {processing ? "PLACING ORDER..." : "COMPLETE ORDER"}
                                 </button>
                             </div>
 
@@ -511,8 +511,8 @@ export default function Checkout() {
                     </div>
 
                     <p className="checkout-security">
-                        Payments are securely handled by PayFast. ARTRƎELAND
-                        does not receive or store your card details.
+                        Payment is currently free in demo mode while the live checkout
+                        integration is being finalized.
                     </p>
 
                 </aside>

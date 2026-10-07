@@ -1,27 +1,30 @@
 import { Link } from "react-router-dom";
+
+import { withBaseAsset } from "../../utils/assets.js";
+
 const categories = [
     {
         name: "MEN",
         subtitle: "Streetwear essentials",
-        image: "/images/model-men.png",
+        image: withBaseAsset("/images/model-men.png"),
         category: "Men",
     },
     {
         name: "WOMEN",
         subtitle: "Made to stand out",
-        image: "/images/women-blue-track-set.png",
+        image: withBaseAsset("/images/women-blue-track-set.png"),
         category: "Women",
     },
     {
         name: "FOOTWEAR",
         subtitle: "Find your next pair",
-        image: "/images/retro-runner-detail.png",
+        image: withBaseAsset("/images/retro-runner-detail.png"),
         category: "Shoes",
     },
     {
         name: "ACCESSORIES",
         subtitle: "The finishing touch",
-        image: "/images/accessories-flatlay.png",
+        image: withBaseAsset("/images/accessories-flatlay.png"),
         category: "Accessories",
     },
 ];

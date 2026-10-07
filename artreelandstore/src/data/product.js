@@ -1,3 +1,5 @@
+import { withBaseAsset } from "../utils/assets.js";
+
 const products = [
     {
         id: 9,
@@ -950,4 +952,13 @@ const products = [
     },
 ];
 
-export default products;
+export default products.map((product) => ({
+    ...product,
+    images: Array.isArray(product.images)
+        ? product.images.map((image) =>
+            image && image.startsWith("/")
+                ? withBaseAsset(image)
+                : image
+        )
+        : product.images,
+}));
